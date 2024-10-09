@@ -9,7 +9,7 @@ const mike = {
         phone : "(702) 526-3020",
         email : "Djmikewhite@gmail.com",
         facebook : "https://www.facebook.com/mike.white.7739814",
-        insta : "https://www.instagram.com/djmikewhite_/",
+        instagram : "https://www.instagram.com/djmikewhite_/",
         twitter : "https://x.com/?lang=en%40Djmikewhite007",
         soundCloud : "https://soundcloud.com/user-554826787",
     },
