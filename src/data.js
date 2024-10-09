@@ -105,7 +105,7 @@ const mike = {
                 name : "American Casino Reality TV",
                 company : "Discovery Chanel",
                 role : "Featured guest D.J. - 31 episodes",
-                location : "Las Vagas, NV",
+                location : "Las Vegas, NV",
                 year : "2004/2005",
                 image : "https://images.freeimages.com/images/large-previews/5de/taxi-through-steam-1447346.jpg?fmt=webp&h=350"
             },
@@ -113,35 +113,35 @@ const mike = {
                 name : "Taxi Cab Confessions",
                 company : "HBO",
                 role : "Guest",
-                location : "Las Vagas, NV",
+                location : "Las Vegas, NV",
                 year : "1998"
             },
             grind : {
                 name : "The Grind",
                 company : "MTV",
                 role : "Host | Dancer",
-                location : "Las Vagas, NV",
+                location : "Las Vegas, NV",
                 year : "1997"
             },
             cyberChallenge : {
                 name : "CYBERCHALLENGE",
                 company : "",
                 role : "Host | News Anchor | Writer | Floor Director",
-                location : "Las Vagas, NV",
+                location : "Las Vegas, NV",
                 year : "1997"
             },
             magician : {
                 name : "World's Greatest Magician Show",
                 company : "Lance Burton",
                 role : "Illusion Assistant",
-                location : "Las Vagas, NV",
+                location : "Las Vegas, NV",
                 year : "1995"
             },
             beyondImagination : {
                 name : "Beyond Imagination",
                 company : "David Copperfield",
                 role : "Illusion Assistant",
-                location : "Las Vagas, NV",
+                location : "Las Vegas, NV",
                 year : "1995"
             }
         },
@@ -150,7 +150,7 @@ const mike = {
                 name : "Angel Come Down",
                 company : "Voice of Beehive",
                 role : "Group/Song",
-                location : "Las Vagas, NV",
+                location : "Las Vegas, NV",
                 year : "1995"
             },
         },
@@ -159,21 +159,21 @@ const mike = {
                 name : "Speedway Junkie",
                 company : "Speedway Junkie Inc.",
                 role : "V.I.P. host at club Utopia",
-                location : "Las Vagas, NV",
+                location : "Las Vegas, NV",
                 year : "1998"
             },
-            vagasVacay : {
-                name : `National Lampoon's "Vagas Vacation"`,
+            vegasVacay : {
+                name : `National Lampoon's "Vegas Vacation"`,
                 company : "Warner Bros",
                 role : "Extra",
-                location : "Las Vagas, NV",
+                location : "Las Vegas, NV",
                 year : "1996"
             },
             casino : {
                 name : "Casino",
                 company : "Universal Pictures",
                 role : "Extra",
-                location : "Las Vagas, NV",
+                location : "Las Vegas, NV",
                 year : "1995"
         }},
         appearences : {
@@ -414,11 +414,13 @@ const mike = {
                 "Voyeur",
                 "W Hotel",
                 "Walk The Block SD in Barrio Logan"],
-                image : "" },
+                image : "",
+                city : "San Diego, California"},
             palmSprings : {
                 locations :["Starlight Lounge at Riviera Resort Spa"],
-                image : "" },
-            Vagas : {
+                image : "",
+                city : "Palm Springs, California" },
+            Vegas : {
                 locations :["Beluga Bar (Resident)",
                 "C2K (Resident)",
                 "Club 1030",
@@ -465,16 +467,21 @@ const mike = {
                 "Vox",
                 "Whiskey Sky (Resident)",
                 "The Historical Glass Pool Inn"],
-                image : "" },
+                image : "",
+                city : "Las Vegas, Nevada" },
             la : {
                 locations :["Whiskey Blue"],
-                image : "" },
+                image : "",
+                city : "Los Angeles, California" },
             ny : {
                 locations :["Whiskey Blue"],
-                image : "" },
+                image : "",
+                city : "New York, New York"},
             Charlotte : {
                 locations :["Vivace"],
-                image : "" },
+                image : "",
+                city : "Charlotte, North Carolina"
+            },
         },
         residencies : {
             stk : "STK San Diego",
