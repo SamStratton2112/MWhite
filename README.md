@@ -1,6 +1,6 @@
 # M.White Portfolio 
 
-## Tech Stack 
+### Tech Stack 
 - React
 - Javascript 
 - HTML
