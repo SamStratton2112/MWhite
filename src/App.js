@@ -1,5 +1,5 @@
 import './App.css';
-import AllRoutes from './AllRoutes';
+import AllRoutes from './components/AllRoutes';
 import { BrowserRouter } from 'react-router-dom';
 
 function App() {
