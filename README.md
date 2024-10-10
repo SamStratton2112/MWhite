@@ -1,4 +1,4 @@
-# M.White Portflio 
+# M.White Portfolio 
 
 ## Tech Stack 
 - React
