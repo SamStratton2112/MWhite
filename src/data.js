@@ -83,7 +83,7 @@ const mike = {
                 role: "Best Man",
                 year: "2018",
                 company: "Rowlbertos Media",
-                role: "San Diego, CA"
+                location: "San Diego, CA"
             },
             rioHotel: {
                 name: "Copacabana",
@@ -515,3 +515,5 @@ const mike = {
         }
     }
 };
+
+export default mike;
