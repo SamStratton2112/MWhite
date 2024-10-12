@@ -225,9 +225,21 @@ const mike = {
     dj: {
         links: {
             audio: {
-                sexyTime: 'https://soundcloud.com/user-554826787/sexytime',
-                unwind: 'https://soundcloud.com/user-554826787/unwind',
-                inspiredBy: 'https://soundcloud.com/user-554826787/an-album-inspired-by-kruder-dorfmeister-mixed-by-dj-mike-white'
+                sexyTime: {
+                    src: 'https://soundcloud.com/user-554826787/sexytime',
+                    image: 'https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&w=800',
+                    name: 'Sexy Time'
+                },
+                unwind: {
+                    src: 'https://soundcloud.com/user-554826787/unwind',
+                    image: 'https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&w=800',
+                    name: 'Unwind'
+                },
+                inspiredBy: { 
+                    src: 'https://soundcloud.com/user-554826787/an-album-inspired-by-kruder-dorfmeister-mixed-by-dj-mike-white',
+                    image: 'https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&w=800',
+                    name: 'An album inspired by Kruder & Dorfmeister mixed by DJ Mike White'
+                }
             },
             video: {
                 liveBRoll: 'https://youtu.be/mStxWnV409w?si=GN49ih7IcR5nAMrz',
@@ -500,17 +512,17 @@ const mike = {
         residencies: {
             stk: {
                 name: "STK San Diego",
-                image: "",
-                link: ""
+                image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&w=800",
+                src: "https://stksteakhouse.com/"
             },
             houseOfBlues: {
                 name: "House of Blues",
-                image: "",
-                link: ""
+                image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&w=800",
+                src: "https://www.houseofblues.com/sandiego?y_source=1_MTU2MzYxNjItNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
             },
             carnitas: {name: 'Carnitas Snack Shack',
-                image: "",
-                link: ""
+                image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&w=800",
+                src: "https://carnitassnackshack.com/"
             }
         }
     }

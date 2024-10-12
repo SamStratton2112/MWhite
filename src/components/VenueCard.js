@@ -1,23 +1,24 @@
 import { Col, Button, Container} from 'react-bootstrap';
+import {useState} from 'react';
 
+const VenueCard = (venue) => {
+    const [hidden, setHidden] = useState(true);
 
-const VenueCard = (venue) =>{
-    let body = <img src='' alt="coming soon"/>
-    // figure out hover effect, not currently working 
-    // get images set up 
-    // components are communicating tho!! YAY
-
-    function handleHover(){
-        body = <Button>{venue.name}</Button>
-    };
-
-    return(
+    let body1 = <img src='' alt="coming soon" />;
+    let body2 = <Button>{venue.venue}</Button>;
+    console.log(venue)
+    return (
         <Col>
-            <Container className="venueCard" onMouseOver={handleHover()}>
-                {body}
+            <Container 
+                style={{ width: '20rem', height: '20rem', border: 'solid' }} 
+                className="venueCard" 
+                onMouseEnter={() => setHidden(false)} 
+                onMouseLeave={() => setHidden(true)}
+            >
+                {hidden ? body1 : body2}
             </Container>
         </Col>
-    )
+    );
 };
 
-export default VenueCard
+export default VenueCard;
