@@ -4,16 +4,12 @@ import mike from '../data.js';
 import VenueCard from './VenueCard';
 
 function Residencies() {
-    let venues = []
-    // Nested object not working....
-    for(let obj in mike.dj.residencies){
-        venues.push(<VenueCard venue={obj} />)
-        console.log(obj.src)
-    }
   return (
     <Container>
       <Row md={12}>
-        {venues}
+        <VenueCard venue={mike.dj.residencies.stk} />
+        <VenueCard venue={mike.dj.residencies.carnitas} />
+        <VenueCard venue={mike.dj.residencies.houseOfBlues} />
       </Row>
     </Container>
   );

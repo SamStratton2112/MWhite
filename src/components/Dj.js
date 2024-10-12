@@ -1,6 +1,8 @@
+import MusicContainer from "./MusicContainer";
+
 const Dj = ()=>{
     return(
-        <h1>Dj</h1>
+        <MusicContainer/>
     )
 };
 

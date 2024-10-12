@@ -227,17 +227,17 @@ const mike = {
             audio: {
                 sexyTime: {
                     src: 'https://soundcloud.com/user-554826787/sexytime',
-                    image: 'https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&w=800',
+                    image: 'https://i.imgur.com/ldCpmta.jpeg',
                     name: 'Sexy Time'
                 },
                 unwind: {
                     src: 'https://soundcloud.com/user-554826787/unwind',
-                    image: 'https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&w=800',
+                    image: 'https://i.imgur.com/WAey4uy.jpeg',
                     name: 'Unwind'
                 },
                 inspiredBy: { 
                     src: 'https://soundcloud.com/user-554826787/an-album-inspired-by-kruder-dorfmeister-mixed-by-dj-mike-white',
-                    image: 'https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&w=800',
+                    image: 'https://i.imgur.com/fHMsQky.jpeg',
                     name: 'An album inspired by Kruder & Dorfmeister mixed by DJ Mike White'
                 }
             },
@@ -435,12 +435,12 @@ const mike = {
                     "Voyeur",
                     "W Hotel",
                     "Walk The Block SD in Barrio Logan"],
-                image: "",
+                image: "https://i.imgur.com/2O7KGP6.jpeg",
                 city: "San Diego, California"
             },
             palmSprings: {
                 locations: ["Starlight Lounge at Riviera Resort Spa"],
-                image: "",
+                image: "https://i.imgur.com/soZ7oyi.jpeg",
                 city: "Palm Springs, California"
             },
             Vegas: {
@@ -490,22 +490,22 @@ const mike = {
                     "Vox",
                     "Whiskey Sky (Resident)",
                     "The Historical Glass Pool Inn"],
-                image: "",
+                image: "https://i.imgur.com/WYPhHOV.jpeg",
                 city: "Las Vegas, Nevada"
             },
             la: {
                 locations: ["Whiskey Blue"],
-                image: "",
+                image: "https://i.imgur.com/uLfW5z0.png",
                 city: "Los Angeles, California"
             },
             ny: {
                 locations: ["Whiskey Blue"],
-                image: "",
+                image: "https://i.imgur.com/3JBkh6t.jpeg",
                 city: "New York, New York"
             },
             Charlotte: {
                 locations: ["Vivace"],
-                image: "",
+                image: "https://i.imgur.com/Oqdr1Ty.jpeg",
                 city: "Charlotte, North Carolina"
             },
         },

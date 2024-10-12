@@ -1,16 +1,14 @@
 import { Card, Button } from "react-bootstrap";
 
 
-const MusicPlayer = (song) => {
+const MusicPlayer = ({album}) => {
+    console.log(album.src)
     return (
         <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src={song.src} alt={song.name} />
+            <Card.Img variant="top" src={album.image} alt={album.name} />
             <Card.Body>
-                <Card.Title>{song.name}</Card.Title>
-                <Card.Text>
-                    {song.name}
-                </Card.Text>
-                <Button variant="primary">Listen on Soundcloud</Button>
+                <Card.Title>{album.name}</Card.Title>
+                <a href={album.src}><Button variant="primary">Listen on Soundcloud</Button></a>
             </Card.Body>
         </Card>
     )

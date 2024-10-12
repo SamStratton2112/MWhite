@@ -1,12 +1,11 @@
 import { Col, Button, Container} from 'react-bootstrap';
 import {useState} from 'react';
 
-const VenueCard = (venue) => {
+const VenueCard = ({venue}) => {
     const [hidden, setHidden] = useState(true);
 
-    let body1 = <img src='' alt="coming soon" />;
-    let body2 = <Button>{venue.venue}</Button>;
-    console.log(venue)
+    let body1 = <img src={venue.image}  style={{ width: '19rem', height: '19rem' }} alt="coming soon" />;
+    let body2 = <a href={venue.src}><Button>Visit {venue.name}</Button></a>;
     return (
         <Col>
             <Container 
