@@ -498,9 +498,20 @@ const mike = {
             },
         },
         residencies: {
-            stk: "STK San Diego",
-            houseOfBlues: "House of Blues",
-            carnitas: 'Carnitas Snack Shack'
+            stk: {
+                name: "STK San Diego",
+                image: "",
+                link: ""
+            },
+            houseOfBlues: {
+                name: "House of Blues",
+                image: "",
+                link: ""
+            },
+            carnitas: {name: 'Carnitas Snack Shack',
+                image: "",
+                link: ""
+            }
         }
     }
 };
