@@ -11,7 +11,7 @@ import { faInstagram, faSoundcloud, faSquareFacebook, faTwitter } from '@fortawe
 
 const NavigationBar = () =>{
     return(
-        <Navbar collapseOnSelect expand="lg" className="NavBar navbar-static-top">
+        <Navbar collapseOnSelect expand="md" className="NavBar navbar-static-top">
           <Navbar.Brand as={Link} to="/" className=' nav-name ms-2'>Mike White</Navbar.Brand>
           <Nav className="ms-auto">
           <Navbar.Toggle aria-controls="responsive-navbar-nav me-2"/>
