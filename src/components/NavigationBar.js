@@ -25,8 +25,7 @@ const NavigationBar = () =>{
                 <Nav.Link className='NavBar-link' as={Link} to="/">About</Nav.Link>
                 <Nav.Link className='NavBar-link' as={Link} to="/Residencies">Residencies</Nav.Link>
                 <Nav.Link className='NavBar-link' as={Link} to="/contact">Contact</Nav.Link>
-          </Navbar.Collapse>
-
+            </Navbar.Collapse>
             </Nav>
       </Navbar>
     )
