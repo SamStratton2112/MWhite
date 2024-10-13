@@ -1,7 +1,8 @@
 
 
-const List = (list)=>{
-    let listItems = list.map(item=><li>-{item}</li>);
+const List = ({list})=>{
+    let listItems = list.map(item=><li>{item}</li>);
+    console.log(list);
     return(
         <ul>
             {listItems}

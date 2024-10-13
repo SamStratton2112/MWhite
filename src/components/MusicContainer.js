@@ -7,10 +7,10 @@ const MusicContainer = () =>{
         <Container>
             <Row md={12}>
                 <Col>
-                    <MusicPlayer album={mike.dj.links.audio.sexyTime} />
+                    <MusicPlayer album={mike.dj.links.audio.unwind} />
                 </Col>
                 <Col>
-                    <MusicPlayer album={mike.dj.links.audio.unwind} />
+                    <MusicPlayer album={mike.dj.links.audio.sexyTime} />
                 </Col>
                 <Col>
                     <MusicPlayer album={mike.dj.links.audio.inspiredBy} />

@@ -12,7 +12,7 @@ import { faInstagram, faSoundcloud, faSquareFacebook, faTwitter } from '@fortawe
 const NavigationBar = () =>{
     return(
         <Navbar collapseOnSelect expand="md" className="NavBar navbar-static-top">
-          <Navbar.Brand as={Link} to="/" className=' nav-name ms-2'><img src="https://i.imgur.com/W4cVzRU.jpeg" alt='djmwLogo' style={{height: '3rem'}}/></Navbar.Brand>
+          <Navbar.Brand as={Link} to="/" className=' nav-name ms-2'><img src="https://i.imgur.com/QLkSBI3.jpeg" alt='djmwLogo' style={{height: '3rem'}}/></Navbar.Brand>
           <Nav className="ms-auto">
           <Navbar.Toggle aria-controls="responsive-navbar-nav me-2"/>
           <Navbar.Collapse id="responsive-navbar-nav">

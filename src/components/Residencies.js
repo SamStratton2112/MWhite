@@ -6,6 +6,7 @@ import VenueCard from './VenueCard';
 function Residencies() {
   return (
     <Container>
+      <h1>Come see me play at: </h1>
       <Row md={12}>
         <VenueCard venue={mike.dj.residencies.stk} />
         <VenueCard venue={mike.dj.residencies.carnitas} />
