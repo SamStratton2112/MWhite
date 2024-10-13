@@ -249,7 +249,8 @@ const mike = {
                 spiritsFest: 'https://youtu.be/5ZcIKeqHBuo?si=MOyMRXUFzx62jhf2'
             }
         },
-        djFor: ["Andre Agassi Foundation",
+        djFor: {
+            list: ["Andre Agassi Foundation",
             "Aston Martin",
             "Athena Health",
             "Augie Helicopters",
@@ -301,7 +302,9 @@ const mike = {
             "Universal Cable Productions",
             "U-T San Diego & UT-TV",
             "Zenith Timepieces"],
-        openedFor: ['Barenaked Ladies',
+            name: 'As a Featured D.J.'},
+        openedFor: {
+            list: ['Barenaked Ladies',
             'Biz Markie',
             'Black Eyed Peas',
             'Dave Matthews',
@@ -312,7 +315,9 @@ const mike = {
             'Sean Paul',
             'Seal',
             'Thievery Corporation'],
-        appearences: ["UT-TV San Diego: 'FRONT PAGE' - featured DJ spinning a lively 3-hour performance",
+            name: "As an Opening D.J."},
+        appearences: {
+            list: ["UT-TV San Diego: 'FRONT PAGE' - featured DJ spinning a lively 3-hour performance",
             "UT-TV San Diego: 'Kaplan at Night' - DJ/Co-Host",
             "KUSI News 'Good Morning San Diego' - special guest appearance",
             "FOX 5 San Diego Morning Show - live set accompanied by Violinist Yvonne Shay, of the San Diego Symphony Orchestra",
@@ -321,6 +326,8 @@ const mike = {
             "DJ for private SNL book signing party for Mary Ellen Matthews",
             "House of Blues 20th Anniversary V.I.P. Party - personal DJ for Flogging Molly's V.I.P. party",
             "BUDWEISER commercial - 1997"],
+            name: "As a Guest D.J."
+        },
         prevExperience: {
             sanDiego: {
                 locations: [
