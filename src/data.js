@@ -16,6 +16,7 @@ const mike = {
     modeling: {
         publications: {
             image: 'https://i.imgur.com/gWLkqYS.jpeg',
+            name: "Publications: ",
             list: [
                 "RNT Architects Magazine (for SDGE) - March 2017",
                 "Las Vegas Weekly Vol 10, Issue 20 'These Kicks Are Made For Dancing' Promotional photoshoot for RA & BABY'S nightclub & the ATTIC clothing stores",
@@ -32,6 +33,7 @@ const mike = {
         },
         shows: {
             image: 'https://i.imgur.com/gWLkqYS.jpeg',
+            name: "Fashion Shows:",
             list: [
                 "Scope Magazine's 6th Anniversary Party, @ Club Utopia - May 1998 (Assistant Choreographer, Model Assistant, & Runway Model)",
                 "Buffalo Exchange Vintage Couture, @ Mariposa Cafe's Grand Opening - 1997",
@@ -42,6 +44,7 @@ const mike = {
         },
         promo: {
             image: 'https://i.imgur.com/gWLkqYS.jpeg',
+            name: "Promotional Materials:",
             list: [
                 "Showroom Modeling for PRADA Spring/Summer/Fall 1999 Ready To Wear - Aug 1999",
                 "(Exclusive Local MAGIC International Trade Show Model - DKNY) - Sept 1998",
@@ -53,6 +56,7 @@ const mike = {
         },
         host: {
             image: 'https://i.imgur.com/gWLkqYS.jpeg',
+            name: "Hosting:",
             list: ["Details Magazine Party (Host & Model) - Feb 1997",
             "SEMA-AAWI Automotive Convention (Spokesperson) - Nov 1996",
             "COMDEX - Aim Tech Corp (Host & Model) - Fall 1995",
