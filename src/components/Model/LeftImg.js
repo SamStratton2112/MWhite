@@ -3,8 +3,8 @@ import List from "../List";
 
 const LeftImg =({image, list})=>{
     return(
-        <Container>
-            <img style={{height:'200px'}} src={image}/>
+        <Container style={{ display: 'flex'}}>
+            <img style={{height:'500px'}} src={image}/>
             <List list={list}/>
         </Container>
     )

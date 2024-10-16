@@ -3,9 +3,10 @@ import List from "../List";
 
 const RightImg =({image, list})=>{
     return(
-        <Container>
+        <Container style={{ display: 'flex'}}>
+        {/* <Container style={{ display: 'flex', alignItems: 'center}}> */}
             <List list={list}/>
-            <img src={image}/>
+            <img style={{height:'500px'}} src={image}/>
         </Container>
     )
 };
