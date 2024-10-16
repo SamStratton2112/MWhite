@@ -9,7 +9,7 @@ const RightImg =({image, list, name})=>{
                 <span>{name}</span>
                 <List list={list}/>
             </Container>
-            <img style={{height:'500px'}} src={image} alt='Mike White Model'/>
+            <img style={{height:'30em'}} src={image} alt='Mike White Model'/>
         </Container>
     )
 };

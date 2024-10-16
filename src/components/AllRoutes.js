@@ -1,5 +1,5 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
-import Home from './Home';
+import About from './About';
 import Actor from './Actor/Actor';
 import Dj from './DJ/Dj';
 import Model from './Model/Model';
@@ -10,7 +10,7 @@ import Contact from './Contact';
 const AllRoutes = () =>{
     return(
         <Routes>
-            <Route exact key="home" path="/" element={<Home/>}/>
+            <Route exact key="About" path="/" element={<About/>}/>
             <Route exact key="actor" path="/actor" element={<Actor/>}/>
             <Route exact key="dj" path="/dj" element={<Dj/>}/>
             <Route exact key="model" path="/model" element={<Model/>}/>

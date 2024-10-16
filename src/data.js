@@ -1,4 +1,5 @@
 const mike = {
+    image: 'https://i.imgur.com/ehF2OZp.jpeg',
     bio: {
         p1: `Mike White was born and raised in Hitchin, Hertfordshire, England in 1975 and moved to Las Vegas, in September 1989, where he developed his unequivocal affinity for music. Next, in the pursuit of new artistic adventures, he moved to San Diego, California and has prospered in this lovely city ever since...`,
         p2: `Mike has had the pleasure to spin at the sexiest lounges and upscale nightclubs in Las Vegas, Los Angeles, New York, and San Diego.
