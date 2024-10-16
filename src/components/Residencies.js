@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import mike from '../data.js';
-import VenueCard from './VenueCard';
+import VenueCard from './DJ/VenueCard';
 
 function Residencies() {
   return (

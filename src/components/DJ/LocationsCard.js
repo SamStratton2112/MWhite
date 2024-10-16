@@ -1,6 +1,6 @@
 import { Col, Container} from 'react-bootstrap';
 import {useState} from 'react';
-import List from './List';
+import List from '../List';
 
 const LocationCard = ({location}) => {
     const [hidden, setHidden] = useState(true);

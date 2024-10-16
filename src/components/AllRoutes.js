@@ -1,8 +1,8 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
 import Home from './Home';
-import Actor from './Actor';
-import Dj from './Dj';
-import Model from './Model';
+import Actor from './Actor/Actor';
+import Dj from './DJ/Dj';
+import Model from './Model/Model';
 import Residencies from './Residencies';
 import Contact from './Contact';
 

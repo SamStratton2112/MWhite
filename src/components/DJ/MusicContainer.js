@@ -1,5 +1,5 @@
 import MusicPlayer from './MusicPlayer';
-import mike from '../data';
+import mike from '../../data';
 import { Container, Row, Col } from 'react-bootstrap';
 
 const MusicContainer = () =>{

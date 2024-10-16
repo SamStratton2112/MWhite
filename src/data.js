@@ -242,11 +242,11 @@ const mike = {
                 }
             },
             video: {
-                liveBRoll: 'https://youtu.be/mStxWnV409w?si=GN49ih7IcR5nAMrz',
-                liveARoll: 'https://youtu.be/BKKLGFTLobs?si=X6DoFx7n4Ft8tUMw',
-                SirensCrush: 'https://youtu.be/vz0OvRqfbro?si=6RqLCYau9dQNKWqN',
-                carnitas: 'https://www.youtube.com/watch?v=MNHSMyaNZ6Y',
-                spiritsFest: 'https://youtu.be/5ZcIKeqHBuo?si=MOyMRXUFzx62jhf2'
+                // liveBRoll: 'mStxWnV409w',
+                liveARoll: 'BKKLGFTLobs',
+                SirensCrush: 'vz0OvRqfbro',
+                carnitas: 'MNHSMyaNZ6Y',
+                spiritsFest: '5ZcIKeqHBuo'
             }
         },
         djFor: {

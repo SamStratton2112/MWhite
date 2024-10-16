@@ -1,5 +1,5 @@
 import { Container, Row, Col } from 'react-bootstrap';
-import mike from '../data.js';
+import mike from '../../data.js';
 import LocationCard from './LocationsCard.js';
 
 const PrevExperience =()=>{

@@ -1,5 +1,5 @@
-import ListModal from './ListModal';
-import mike from '../data';
+import ListModal from '../ListModal';
+import mike from '../../data';
 import {Container} from 'react-bootstrap';
 
 const AppearencesContainer = ()=>{
