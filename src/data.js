@@ -14,39 +14,51 @@ const mike = {
         soundcloud: "https://soundcloud.com/user-554826787",
     },
     modeling: {
-        publications: [
-            "RNT Architects Magazine (for SDGE) - March 2017",
-            "Las Vegas Weekly Vol 10, Issue 20 'These Kicks Are Made For Dancing' Promotional photoshoot for RA & BABY'S nightclub & the ATTIC clothing stores",
-            "The PAPER Las Vegas' It Magazine, Y2K Turn of The Century Issue",
-            "Scope Magazine's Sixth Anniversary Party - May 1998",
-            "GUESS? Jeans (Photoshoot for Retail Store Poster) - 1997",
-            "SKI Show Daily - Vol 16 #3 - Mar 1996",
-            "'Smoke & Cigar' Magazine - The Drink Nightclub Ad - Jan 1996",
-            "Los Angeles & New York Times - Photoshoot for Venus in Furs - Sept 1995",
-            "Transworld Snowboard Magazine (shot in clothes used in fashion show for S.I.A.) - 1995",
-            "CALVIN KLEIN Billboard CK1 Advertisement - June 1994",
-            "Exotic hair designs by DIVA Hair Salon - Details & Detour magazine - May 1994"
-        ],
-        shows: [
-            "Scope Magazine's 6th Anniversary Party, @ Club Utopia - May 1998 (Assistant Choreographer, Model Assistant, & Runway Model)",
-            "Buffalo Exchange Vintage Couture, @ Mariposa Cafe's Grand Opening - 1997",
-            "Buffalo Exchange Vintage Couture @ Club Utopia - 1996",
-            "S.I.A. Ski Convention, Janet Racy N.Y.C. (Runway Model) - 1995",
-            "Buffalo Exchange Vintage Couture, @ Cafe' Espresso Roma - 1995"
-        ],
-        promo: [
-            "Showroom Modeling for PRADA Spring/Summer/Fall 1999 Ready To Wear - Aug 1999",
-            "(Exclusive Local MAGIC International Trade Show Model - DKNY) - Sept 1998",
-            "MAGIC International Trade Show (Fall Collection Model - DKNY) - Feb 1998",
-            "MAGIC International Trade Show (Exclusive Local Model - DKNY) - Aug 1997",
-            "MAGIC International Trade Show (Model - Venus In Furs) - Aug 1995",
-            "Action Sports International Trade Show (Model - TAG RAG) - Jan 1995"
-        ],
-        host: ["Details Magazine Party (Host & Model) - Feb 1997",
+        publications: {
+            image: 'https://i.imgur.com/gWLkqYS.jpeg',
+            list: [
+                "RNT Architects Magazine (for SDGE) - March 2017",
+                "Las Vegas Weekly Vol 10, Issue 20 'These Kicks Are Made For Dancing' Promotional photoshoot for RA & BABY'S nightclub & the ATTIC clothing stores",
+                "The PAPER Las Vegas' It Magazine, Y2K Turn of The Century Issue",
+                "Scope Magazine's Sixth Anniversary Party - May 1998",
+                "GUESS? Jeans (Photoshoot for Retail Store Poster) - 1997",
+                "SKI Show Daily - Vol 16 #3 - Mar 1996",
+                "'Smoke & Cigar' Magazine - The Drink Nightclub Ad - Jan 1996",
+                "Los Angeles & New York Times - Photoshoot for Venus in Furs - Sept 1995",
+                "Transworld Snowboard Magazine (shot in clothes used in fashion show for S.I.A.) - 1995",
+                "CALVIN KLEIN Billboard CK1 Advertisement - June 1994",
+                "Exotic hair designs by DIVA Hair Salon - Details & Detour magazine - May 1994"
+            ]
+        },
+        shows: {
+            image: 'https://i.imgur.com/gWLkqYS.jpeg',
+            list: [
+                "Scope Magazine's 6th Anniversary Party, @ Club Utopia - May 1998 (Assistant Choreographer, Model Assistant, & Runway Model)",
+                "Buffalo Exchange Vintage Couture, @ Mariposa Cafe's Grand Opening - 1997",
+                "Buffalo Exchange Vintage Couture @ Club Utopia - 1996",
+                "S.I.A. Ski Convention, Janet Racy N.Y.C. (Runway Model) - 1995",
+                "Buffalo Exchange Vintage Couture, @ Cafe' Espresso Roma - 1995"
+            ]
+        },
+        promo: {
+            image: 'https://i.imgur.com/gWLkqYS.jpeg',
+            list: [
+                "Showroom Modeling for PRADA Spring/Summer/Fall 1999 Ready To Wear - Aug 1999",
+                "(Exclusive Local MAGIC International Trade Show Model - DKNY) - Sept 1998",
+                "MAGIC International Trade Show (Fall Collection Model - DKNY) - Feb 1998",
+                "MAGIC International Trade Show (Exclusive Local Model - DKNY) - Aug 1997",
+                "MAGIC International Trade Show (Model - Venus In Furs) - Aug 1995",
+                "Action Sports International Trade Show (Model - TAG RAG) - Jan 1995"
+            ]
+        },
+        host: {
+            image: 'https://i.imgur.com/gWLkqYS.jpeg',
+            list: ["Details Magazine Party (Host & Model) - Feb 1997",
             "SEMA-AAWI Automotive Convention (Spokesperson) - Nov 1996",
             "COMDEX - Aim Tech Corp (Host & Model) - Fall 1995",
             "Details Magazine Party (Host & Model) - Jan 1995"
         ]
+        }
     },
     acting: {
         links: {
@@ -242,7 +254,6 @@ const mike = {
                 }
             },
             video: {
-                // liveBRoll: 'mStxWnV409w',
                 liveARoll: 'BKKLGFTLobs',
                 SirensCrush: 'vz0OvRqfbro',
                 carnitas: 'MNHSMyaNZ6Y',
