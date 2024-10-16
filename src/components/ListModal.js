@@ -3,7 +3,7 @@ import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 
-const ListModal = ({list})=>{
+const ListModal = ({list, name})=>{
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -12,7 +12,7 @@ const ListModal = ({list})=>{
   return (
     <>
       <Button variant="primary" onClick={handleShow}>
-        {list.name}
+        {name}
       </Button>
 
       <Modal
@@ -22,10 +22,10 @@ const ListModal = ({list})=>{
         keyboard={false}
       >
         <Modal.Header closeButton>
-          <Modal.Title>{list.name}</Modal.Title>
+          <Modal.Title>{name}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <List list={list.list}/>
+          <List list={list}/>
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
