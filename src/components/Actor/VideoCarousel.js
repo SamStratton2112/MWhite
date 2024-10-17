@@ -4,10 +4,10 @@ import mike from '../../data';
 
 const VideoCarousel = () => {
     return (
-        <Container>
-            <Carousel className='align-items-center'>
-                <Carousel.Item interval={5000}><Video id={mike.acting.links.video.laborDay} /></Carousel.Item>
-                <Carousel.Item interval={5000}><Video id={mike.acting.links.video.behiveVoice} /></Carousel.Item>
+        <Container className='center carousel'>
+            <Carousel>
+                <Carousel.Item interval={50000}><Video id={mike.acting.links.video.laborDay} /></Carousel.Item>
+                <Carousel.Item interval={50000}><Video id={mike.acting.links.video.behiveVoice} /></Carousel.Item>
             </Carousel>
         </Container>
     );

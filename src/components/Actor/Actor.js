@@ -9,7 +9,7 @@ const Actor = () => {
         <Container className='outer-container'>
             <VideoCarousel className="vidCarousel"/>
             <Container>
-                <h2>Previous Experience</h2>
+                <h2 className="center">Previous Experience</h2>
                 <Container>
                     <h3>Commercials</h3>
                     <RoleContainer type={mike.acting.commercial} />

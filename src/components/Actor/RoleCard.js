@@ -16,7 +16,7 @@ const RoleCard = ({role,name,company,year,location}) => {
     return (
         <Col>
             <Container 
-                style={{ width: '20rem', height: '20rem', border: 'solid', margin: '1em', borderRadius:'10px'}} 
+                style={{ width: '17em', height: '17em', border: 'solid', margin: '1em', borderRadius:'10px'}} 
                 className="venueCard cardBg" 
                 onMouseEnter={() => setHidden(false)} 
                 onMouseLeave={() => setHidden(true)}
