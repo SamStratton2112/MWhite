@@ -13,3 +13,8 @@
     color: white;
     background-color: black;
 }
+
+.app{
+    background-color: rgb(238, 235, 234);
+    height: 100vh;
+}

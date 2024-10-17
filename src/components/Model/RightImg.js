@@ -3,13 +3,14 @@ import List from "../List";
 
 const RightImg =({image, list, name})=>{
     return(
-        <Container style={{ display: 'flex'}}>
-        {/* <Container style={{ display: 'flex', alignItems: 'center}}> */}
+        <Container className="center">
             <Container>
                 <span>{name}</span>
                 <List list={list}/>
             </Container>
-            <img style={{height:'30em'}} src={image} alt='Mike White Model'/>
+            <Container className="center imgContainer">
+                <img style={{height:'30em'}} src={image} alt='Mike White Model'/>
+            </Container>
         </Container>
     )
 };
