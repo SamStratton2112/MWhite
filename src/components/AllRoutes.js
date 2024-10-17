@@ -9,9 +9,9 @@ import Contact from './Contact';
 
 const AllRoutes = () =>{
     return(
-        <Routes>
+        <Routes >
             <Route exact key="About" path="/" element={<About/>}/>
-            <Route exact key="actor" path="/actor" element={<Actor/>}/>
+            <Route exact key="actor" path="/actor" element={<Actor />}/>
             <Route exact key="dj" path="/dj" element={<Dj/>}/>
             <Route exact key="model" path="/model" element={<Model/>}/>
             <Route exact key="residencies" path="/residencies" element={<Residencies/>}/>
