@@ -68,8 +68,8 @@ const mike = {
     acting: {
         links: {
             video: {
-                behiveVoice: 'https://www.youtube.com/watch?v=BTkfCsPAoqo',
-                laborDay: 'https://www.youtube.com/watch?v=drABef-QGhg',
+                behiveVoice: 'BTkfCsPAoqo',
+                laborDay: 'drABef-QGhg',
                 yacht: 'https://www.dropbox.com/scl/fi/bvz0qd2daotayp8bdoj0v/YACHT-PROMO-IG.mp4?rlkey=h01y47v95kyzpfqjyq6yq75g9&e=1&st=3oycxn67&dl=0'
             },
         },

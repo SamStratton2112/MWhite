@@ -16,8 +16,6 @@ const PrevExperience =()=>{
                 <Col>
             <LocationCard location={mike.dj.prevExperience.la}/>
                 </Col>
-            </Row>
-            <Row>
                 <Col>
             <LocationCard location={mike.dj.prevExperience.palmSprings}/>
                 </Col>

@@ -1,5 +1,5 @@
 import { Carousel, Container } from 'react-bootstrap';
-import Video from './Video';
+import Video from '../Video';
 import mike from '../../data';
 
 const DjCarousel = () => {

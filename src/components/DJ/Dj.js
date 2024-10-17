@@ -7,7 +7,7 @@ import DjCarousel from "./DjCarousel";
 const Dj = ()=>{
     return(
         <Container>
-            <span>Check out my albums:</span>
+            <img style={{width:'50%'}} src="https://i.imgur.com/W4cVzRU.jpeg" alt="logo"/>
             <MusicContainer/>
             <DjCarousel/>
             <PrevExperience/>

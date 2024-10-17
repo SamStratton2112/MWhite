@@ -1,9 +1,12 @@
 import { Container } from 'react-bootstrap';
 import mike from '../../data';
 import { RoleContainer } from './RoleContainer';
+import VideoCarousel from './VideoCarousel';
 
 const Actor = () => {
     return (
+        <>
+        <VideoCarousel/>
         <Container>
             <h2>Previous Experience</h2>
             <Container>
@@ -23,6 +26,7 @@ const Actor = () => {
                 <RoleContainer type={mike.acting.musicVideos} />
             </Container>
         </Container>
+        </>
     )
 };
 
