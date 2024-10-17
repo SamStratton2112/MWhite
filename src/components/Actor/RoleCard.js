@@ -1,14 +1,10 @@
-import { Col, Container} from 'react-bootstrap';
+import { Col, Button, Container} from 'react-bootstrap';
 import {useState} from 'react';
-import List from '../List';
 
-const LocationCard = ({location}) => {
+const RoleCard = ({role}) => {
     const [hidden, setHidden] = useState(true);
-
-    let body1 = <img src={location.image}  style={{ width: '19rem', height: '19rem' }} alt="coming soon" />;
-    
-    let list = Array.from(location.locations)
-    let body2 = <List list={list} />
+    const body1 = '';
+    const body2 = '';
     return (
         <Col>
             <Container 
@@ -17,11 +13,10 @@ const LocationCard = ({location}) => {
                 onMouseEnter={() => setHidden(false)} 
                 onMouseLeave={() => setHidden(true)}
             >
-                <p>{location.city}</p>
                 {hidden ? body1 : body2}
             </Container>
         </Col>
     );
 };
 
-export default LocationCard;
+export default RoleCard;

@@ -3,7 +3,6 @@ import mike from '../../data';
 import {Container} from 'react-bootstrap';
 
 const AppearencesContainer = ()=>{
-    console.log(mike)
     return(
         <Container>
             <span>Appearences...</span>
@@ -13,7 +12,6 @@ const AppearencesContainer = ()=>{
             <ListModal name={mike.dj.djFor.name} list={mike.dj.djFor.list}>{mike.dj.djFor.name}</ListModal>
         </Container>
     )
-
 };
 
 export default AppearencesContainer;

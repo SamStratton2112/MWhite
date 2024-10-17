@@ -5,11 +5,19 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram, faSoundcloud, faSquareFacebook, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 const Contact = () => {
-    //add protections against empty fields 
     const nav = useNavigate()
+
     const sendEmail = (e) => {
         e.preventDefault();
-
+        const name = e.target.user_Name.value.trim();
+        const email = e.target.user_email.value.trim();
+        const message = e.target.message.value.trim();
+        
+        if (name === '' || email === '' || message === '') {
+            alert("Please fill out all fields before submitting.");
+            return;
+        }
+        //Protect these values in process.env, currently not working...
         emailjs.sendForm(
             'service_6s2gkaq',
             'template_i69bsta',
