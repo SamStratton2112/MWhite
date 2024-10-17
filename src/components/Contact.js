@@ -19,10 +19,10 @@ const Contact = () => {
         }
         //Protect these values in process.env, currently not working...
         emailjs.sendForm(
-            'service_6s2gkaq',
-            'template_i69bsta',
+            '',//service key in .env
+            '', //template key in .env
             e.target,
-            'eSDpVKbOKyAGSFtcc'
+            '' //public key in .env
         ).then(
             () => {
                 console.log('SUCCESS!');
