@@ -7,11 +7,6 @@
     background: linear-gradient(white,red);
 }
 
-.center{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .carousel{
     margin-top: 1em;

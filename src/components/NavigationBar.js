@@ -18,7 +18,7 @@ const NavigationBar = () =>{
           <Nav className="ms-auto">
           <Navbar.Toggle aria-controls="responsive-navbar-nav me-2"/>
           <Navbar.Collapse id="responsive-navbar-nav">
-                <Nav.Link className='NavBar-link' as={Link} to="https://www.instagram.com/djmikewhite_/"><FontAwesomeIcon icon={faInstagram} size="2x" /></Nav.Link>
+                <Nav.Link className='NavBar-link social' as={Link} to="https://www.instagram.com/djmikewhite_/"><FontAwesomeIcon icon={faInstagram} size="2x" /></Nav.Link>
                 <Nav.Link className='NavBar-link' as={Link} to="https://soundcloud.com/user-554826787"><FontAwesomeIcon icon={faSoundcloud} size="2x" /></Nav.Link>
                 <Nav.Link className='NavBar-link' as={Link} to="https://www.facebook.com/mike.white.7739814"><FontAwesomeIcon icon={faSquareFacebook} size="2x" /></Nav.Link><Nav.Link className='NavBar-link' as={Link} to="https://x.com/?lang=en"><FontAwesomeIcon icon={faTwitter} size="2x" /></Nav.Link>
                 <Nav.Link className='NavBar-link' as={Link} to="/">About</Nav.Link>

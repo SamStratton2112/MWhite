@@ -1,0 +1,15 @@
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.socialMedia{
+    margin:1em;
+    padding: .5em;
+    border-radius: .5em;
+    display: flex;
+    color: white;
+    background-color: black;
+}
