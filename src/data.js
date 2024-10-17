@@ -536,17 +536,17 @@ const mike = {
         residencies: {
             stk: {
                 name: "STK San Diego",
-                image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&w=800",
+                image: "https://appointmenttrader.com/modules/cache/imagecache.php?image=aHR0cHM6Ly9pbWcueW91dHViZS5jb20vdmkveHYwLU9BT1RGQ1UvaHFkZWZhdWx0LmpwZw==",
                 src: "https://stksteakhouse.com/"
             },
             houseOfBlues: {
                 name: "House of Blues",
-                image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&w=800",
+                image: "https://assets.livenationcdn.com/uploads/hob_sand_1024x576.jpg?auto=webp&quality=70&width=768",
                 src: "https://www.houseofblues.com/sandiego?y_source=1_MTU2MzYxNjItNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
             },
             carnitas: {
                 name: 'Carnitas Snack Shack',
-                image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&w=800",
+                image: "https://media-cdn.tripadvisor.com/media/photo-s/10/79/25/a1/carnitas-snack-shack.jpg",
                 src: "https://carnitassnackshack.com/"
             }
         }
