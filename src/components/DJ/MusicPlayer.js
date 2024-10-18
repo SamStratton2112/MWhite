@@ -1,4 +1,4 @@
-import { Card, Button } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 
 
 const MusicPlayer = ({album}) => {
@@ -8,7 +8,7 @@ const MusicPlayer = ({album}) => {
             <Card.Img variant="top" src={album.image} alt={album.name} />
             <Card.Body>
                 <Card.Title>{album.name}</Card.Title>
-                <a href={album.src}><Button variant="primary">Listen on Soundcloud</Button></a>
+                <a href={album.src}><button className="bttn">Listen on Soundcloud</button></a>
             </Card.Body>
         </Card>
     )

@@ -15,6 +15,22 @@
 }
 
 .app{
-    background-color: rgb(238, 235, 234);
-    height: 100vh;
+    background-color: rgb(234, 221, 217);
+    min-height: 100vh;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    background-size : cover;
+    margin-right: auto;
+    margin-right: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+.bttn{
+    border-color: black;
+    /* border-radius: .5em; */
+    color: red
+    
 }

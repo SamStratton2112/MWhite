@@ -1,6 +1,5 @@
 import List from './List';
 import { useState } from 'react';
-import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 
 const ListModal = ({list, name})=>{
@@ -11,9 +10,9 @@ const ListModal = ({list, name})=>{
 
   return (
     <>
-      <Button variant="primary" onClick={handleShow}>
+      <button className="bttn" onClick={handleShow}>
         {name}
-      </Button>
+      </button>
 
       <Modal
         show={show}
@@ -28,9 +27,9 @@ const ListModal = ({list, name})=>{
           <List list={list}/>
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
+          <button className='bttn' onClick={handleClose}>
             Close
-          </Button>
+          </button>
         </Modal.Footer>
       </Modal>
     </>

@@ -1,4 +1,4 @@
-import { Container, Button, Form } from "react-bootstrap";
+import { Container, Form } from "react-bootstrap";
 import emailjs from '@emailjs/browser';
 import { useNavigate } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -65,9 +65,9 @@ const Contact = () => {
                         aria-label="With textarea"
                     />
                 </Form.Group>
-                <Button className="btn" type="submit">
+                <button className="bttn" type="submit">
                     Submit
-                </Button>
+                </button>
             </Form>
             <Container className="center">
                 <a className="socialMedia" href="https://www.instagram.com/djmikewhite_/"><FontAwesomeIcon icon={faInstagram} size="2x"/></a>
