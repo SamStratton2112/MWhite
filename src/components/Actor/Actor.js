@@ -9,14 +9,14 @@ const Actor = () => {
         <Container>
             <VideoCarousel className="vidCarousel"/>
             <Container>
-                <h2 className="center">Previous Experience</h2>
+                <h2>Previous Experience</h2>
                 <Container>
                     <h3>Commercials</h3>
                     <RoleContainer type={mike.acting.commercial} />
                 </Container>
                 <Container>
                     <h3>TV</h3>
-                    <RoleContainer className="roleContainer" type={mike.acting.tv} />
+                    <RoleContainer type={mike.acting.tv} />
                 </Container>
                 <Container>
                     <h3>Movies</h3>

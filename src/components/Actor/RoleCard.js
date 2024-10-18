@@ -3,7 +3,7 @@ import {useState} from 'react';
 
 const RoleCard = ({role,name,company,year,location}) => {
     const [hidden, setHidden] = useState(true);
-    const body1 = <h4 style={{textAlign: 'center', paddingTop:'45%' }}>{name}</h4>;
+    const body1 = <h4 style={{ paddingTop:'45%' }}>{name}</h4>;
     const body2 = (
     <>
         <h4 style={{marginTop:'1em'}}>{name}</h4>
@@ -16,8 +16,8 @@ const RoleCard = ({role,name,company,year,location}) => {
     return (
         <Col>
             <Container 
-                style={{ width: '17em', height: '17em', border: 'solid', margin: '1em', borderRadius:'10px'}} 
-                className="venueCard cardBg" 
+                style={{ width: '17em', height: '17em', border: 'solid', margin: '1em', borderRadius:'.3em'}} 
+                className="cardBg" 
                 onMouseEnter={() => setHidden(false)} 
                 onMouseLeave={() => setHidden(true)}
             >
