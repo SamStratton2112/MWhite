@@ -28,9 +28,23 @@ a{
     text-decoration: none;
 }
 
+.leftText{
+    text-align: left;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
 .bttn{
     border-color: black;
-    /* border-radius: .5em; */
-    color: red
-    
+    border-width: .1em;
+    border-radius: .2em;
+    margin:1em;
+    background-color: rgb(188, 11, 11);
+    color: white;
+    padding: .5em;
+}
+
+.scrollText{
+    overflow-y: auto;
+    height: 20em;
+    width: 20em;
 }

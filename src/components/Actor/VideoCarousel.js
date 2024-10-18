@@ -4,8 +4,8 @@ import mike from '../../data';
 
 const VideoCarousel = () => {
     return (
-        <Container className='center carousel'>
-            <Carousel>
+        <Container>
+            <Carousel className='align-items-center'>
                 <Carousel.Item interval={50000}><Video id={mike.acting.links.video.laborDay} /></Carousel.Item>
                 <Carousel.Item interval={50000}><Video id={mike.acting.links.video.behiveVoice} /></Carousel.Item>
             </Carousel>

@@ -12,7 +12,7 @@ const About = () =>{
             </Container>
             <Container style={{ display: 'flex'}}>
             <img style={{height:'30em'}} src={mike.image} alt='Mike White Model'/>
-            <Container>
+            <Container className="leftText">
                 <p>{mike.bio.p1}</p>
                 <p>{mike.bio.p2}</p>
                 <p>{mike.bio.p3}</p>

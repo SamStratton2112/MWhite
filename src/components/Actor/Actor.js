@@ -6,7 +6,7 @@ import './Actor.css'
 
 const Actor = () => {
     return (
-        <Container className='outer-container'>
+        <Container>
             <VideoCarousel className="vidCarousel"/>
             <Container>
                 <h2 className="center">Previous Experience</h2>

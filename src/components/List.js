@@ -1,7 +1,7 @@
 const List = ({list})=>{
     let listItems = list.map(item=><li>{item}</li>);
     return(
-        <ul>
+        <ul className="leftText scrollText">
             {listItems}
         </ul>
     );

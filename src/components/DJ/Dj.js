@@ -10,8 +10,10 @@ const Dj = () => {
             <Container className='center'>
                 <img style={{ width: '50%', marginTop: '1em' }} src="https://i.imgur.com/W4cVzRU.jpeg" alt="logo" />
             </Container>
+            <h3>Check out my albums:</h3>
             <MusicContainer />
             <DjCarousel />
+            <h3>Venues Played</h3>
             <PrevExperience />
             <AppearencesContainer />
         </Container>

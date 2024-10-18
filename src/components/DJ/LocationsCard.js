@@ -11,13 +11,13 @@ const LocationCard = ({location}) => {
     let body2 = <List list={list} />
     return (
         <Col>
+                <p>{location.city}</p>
             <Container 
-                style={{ width: '20rem', height: '20rem', border: 'solid' }} 
+                style={{ width: '20rem', height: '20rem' }} 
                 className="venueCard" 
                 onMouseEnter={() => setHidden(false)} 
                 onMouseLeave={() => setHidden(true)}
             >
-                <p>{location.city}</p>
                 {hidden ? body1 : body2}
             </Container>
         </Col>
