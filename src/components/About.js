@@ -11,8 +11,8 @@ const About = () =>{
                 <Link to="/actor"><button className="bttn">Actor</button></Link>
             </Container>
             <Container style={{ display: 'flex'}}>
-            <img style={{height:'30em'}} src={mike.image} alt='Mike White Model'/>
-            <Container className="leftText">
+            <img style={{height:'32em', borderRadius:'.2em'}} src={mike.image} alt='Mike White Model'/>
+            <Container className="leftText" style={{marginLeft: '3em', fontSize:'1.2em'}}>
                 <p>{mike.bio.p1}</p>
                 <p>{mike.bio.p2}</p>
                 <p>{mike.bio.p3}</p>

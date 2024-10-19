@@ -254,7 +254,7 @@ const mike = {
                 inspiredBy: {
                     src: 'https://soundcloud.com/user-554826787/an-album-inspired-by-kruder-dorfmeister-mixed-by-dj-mike-white',
                     image: 'https://i.imgur.com/fHMsQky.jpeg',
-                    name: 'An album inspired by Kruder & Dorfmeister mixed by DJ Mike White'
+                    name: 'An inspired album...'
                 }
             },
             video: {

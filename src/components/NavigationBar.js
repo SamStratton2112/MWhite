@@ -15,7 +15,7 @@ const NavigationBar = () =>{
           <Navbar.Brand as={Link} to="/" className=' nav-name ms-2'>
             Mike White
           </Navbar.Brand>
-          <Nav className="ms-auto">
+          <Nav className="ms-auto" style={{color:'white'}}>
           <Navbar.Toggle aria-controls="responsive-navbar-nav me-2"/>
           <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav.Link className='NavBar-link social' as={Link} to="https://www.instagram.com/djmikewhite_/"><FontAwesomeIcon icon={faInstagram} size="2x" /></Nav.Link>
