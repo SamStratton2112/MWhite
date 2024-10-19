@@ -37,10 +37,21 @@ a{
     background: rgb(184, 17, 17);
     width: 20em;
     height: 20em;
+    color: white;
+    border: solid;
+    border-width: 1em;
+    border-color: black;
 }
 
 .cardText{
     color: white;
+}
+
+.containerBckground{
+    background-color: rgb(128, 128, 128);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: .5em;
 }
 
 

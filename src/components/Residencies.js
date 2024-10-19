@@ -6,8 +6,8 @@ import VenueCard from './VenueCard';
 function Residencies() {
   return (
     <Container>
-      <h1>Come see me play at: </h1>
-      <Row md={12} style={{marginTop:'10vh'}}>
+      <h1 style={{marginTop: '1em', marginBottom:'1em'}}>Current Residencies</h1>
+      <Row md={12} className="containerBckground">
         <VenueCard venue={mike.dj.residencies.stk} />
         <VenueCard venue={mike.dj.residencies.carnitas} />
         <VenueCard venue={mike.dj.residencies.houseOfBlues} />

@@ -38,6 +38,7 @@ const Contact = () => {
 
     return (
         <Container>
+                <h1 style={{marginTop:'1em'}}>Contact</h1>
             <Form className='formContainer' onSubmit={sendEmail}>
                 <Form.Group className="mb-3" controlId="formBasicName">
                     <Form.Label>Name</Form.Label>

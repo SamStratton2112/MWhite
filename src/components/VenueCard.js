@@ -4,7 +4,7 @@ import {useState} from 'react';
 const VenueCard = ({venue}) => {
     const [hidden, setHidden] = useState(true);
 
-    let body1 = <img src={venue.image}  style={{ width: '19rem', height: '19rem' }} alt={venue.name} />;
+    let body1 = <img src={venue.image}  style={{ width: '19rem', height: '19rem', borderRadius: '.2em' }} alt={venue.name} />;
     let body2 = <a href={venue.src}><button className="bttn">Visit {venue.name}</button></a>;
     return (
         <Col>

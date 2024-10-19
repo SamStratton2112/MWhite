@@ -10,7 +10,7 @@ const About = () =>{
                 <Link to="/model"><button className="bttn">Model</button></Link>
                 <Link to="/actor"><button className="bttn">Actor</button></Link>
             </Container>
-            <Container style={{ display: 'flex'}}>
+            <Container style={{ display: 'flex', backgroundColor:'rgb(128, 128, 128,.6)', padding: '1em', borderRadius:'.2em'}}>
             <img style={{height:'32em', borderRadius:'.2em'}} src={mike.image} alt='Mike White Model'/>
             <Container className="leftText" style={{marginLeft: '3em', fontSize:'1.2em'}}>
                 <p>{mike.bio.p1}</p>
