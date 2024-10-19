@@ -10,7 +10,7 @@ const LeftImg = ({ image, list, name }) => {
             </Container>
             <Container className="txtContainer">
                     <span>{name}</span>
-                    <List list={list} />
+                    <List list={list}/>
             </Container>
         </Container>
     )
