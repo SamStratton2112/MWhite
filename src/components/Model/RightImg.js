@@ -1,17 +1,17 @@
-import { Container } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import List from "../List";
 
 const RightImg =({image, list, name})=>{
     return(
-        <Container className="center">
-            <Container>
-                <span>{name}</span>
+        <Row className="center">
+            <Col>
+                <h2>{name}</h2>
                 <List list={list}/>
-            </Container>
-            <Container className="center imgContainer">
+            </Col>
+            <Col className="center imgContainer">
                 <img style={{height:'30em'}} src={image} alt='Mike White Model'/>
-            </Container>
-        </Container>
+            </Col>
+        </Row>
     )
 };
 
