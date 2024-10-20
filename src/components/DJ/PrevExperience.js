@@ -4,24 +4,24 @@ import LocationCard from './LocationsCard.js';
 
 const PrevExperience =()=>{
     return(
-        <Container className='center containerBckground'>
-            <Row md={12}>
-                <Col>
+        <Container className='center'>
+            <Row>
+                <Col md={12} lg={4}>
                     <LocationCard location={mike.dj.prevExperience.sanDiego}/>
                 </Col>
-                <Col>
+                <Col md={12} lg={4}>
             <LocationCard location={mike.dj.prevExperience.Vegas}/>
                 </Col>
-                <Col>
+                <Col md={12} lg={4}>
             <LocationCard location={mike.dj.prevExperience.la}/>
                 </Col>
                 <Col>
             <LocationCard location={mike.dj.prevExperience.palmSprings}/>
                 </Col>
-                <Col>
+                <Col md={12} lg={4}>
             <LocationCard location={mike.dj.prevExperience.ny}/>
                 </Col>
-                <Col>
+                <Col md={12} lg={4}>
             <LocationCard location={mike.dj.prevExperience.Charlotte}/>
                 </Col>
             </Row>

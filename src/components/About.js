@@ -4,7 +4,7 @@ import mike from '../data';
 
 const About = () => {
     return (
-        <Container style={{ backgroundColor: 'rgba(13, 12, 12, 0.9)', height: '100vh'}}>
+        <Container style={{ backgroundColor: 'rgba(13, 12, 12, 0.9)', height: '100%'}}>
             <Container>
                 <Link to="/dj"><button className="bttn">DJ</button></Link>
                 <Link to="/model"><button className="bttn">Model</button></Link>

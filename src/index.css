@@ -48,9 +48,8 @@ a{
 }
 
 .containerBckground{
-    background-color: rgb(128, 128, 128, .5);
-    padding-top: 1em;
-    padding-bottom: 1em;
+    background-color: rgb(13, 12, 12, 0.9);
+    padding: 3em;
     border-radius: .5em;
 }
 

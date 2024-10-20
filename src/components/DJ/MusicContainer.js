@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 const MusicContainer = () =>{
     return(
-        <Container className="center containerBckgroundRed">
+        <Container className="center ">
             <Row  md={12} >
                 <Col>
                     <MusicPlayer album={mike.dj.links.audio.unwind} />

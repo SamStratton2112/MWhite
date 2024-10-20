@@ -7,11 +7,15 @@ import './Dj.css';
 
 const Dj = () => {
     return (
-        <Container className="dj">
-            <h3 style={{padding:'1em'}}>Venues Played</h3>
-            <PrevExperience />
-            <h3 style={{margin:'1em'}} >Albums</h3>
+        <Container className="dj cardText">
+            <br/>
+            <Container style={{backgroundColor: 'rgb(13, 12, 12, .8)', width:'10em', borderRadius:'.2em'}}><h3 style={{padding:'1em', marginBottom:'1em'}} >Albums</h3></Container>
             <MusicContainer />
+            <Container style={{backgroundColor: 'rgb(13, 12, 12, .8)', width:'20em', borderRadius:'.2em'}}><h3 style={{padding:'1em'}}>Venues Played</h3></Container>
+            <PrevExperience />
+            <Container style={{backgroundColor: 'rgb(13, 12, 12, .8)', width:'20em', borderRadius:'.2em'}}>
+            <h3 style={{padding:'1em', marginTop: '1em', marginBottom:'1em'}}>Appearences...</h3>
+            </Container>
             <AppearencesContainer />
             <DjCarousel />
         </Container>
