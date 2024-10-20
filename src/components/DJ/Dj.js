@@ -8,10 +8,10 @@ import './Dj.css';
 const Dj = () => {
     return (
         <Container className="dj">
+            <h3 style={{padding:'1em'}}>Venues Played</h3>
+            <PrevExperience />
             <h3 style={{margin:'1em'}} >Albums</h3>
             <MusicContainer />
-            <h3 style={{margin:'1em'}}>Venues Played</h3>
-            <PrevExperience />
             <AppearencesContainer />
             <DjCarousel />
         </Container>
