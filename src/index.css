@@ -34,7 +34,7 @@ a{
 }
 
 .cardBg{
-    background: rgb(184, 17, 17);
+    background: rgb(184, 17, 17, .8);
     width: 20em;
     height: 20em;
     color: white;
@@ -48,15 +48,14 @@ a{
 }
 
 .containerBckground{
-    background-color: rgb(128, 128, 128);
+    background-color: rgb(128, 128, 128, .5);
     padding-top: 1em;
     padding-bottom: 1em;
     border-radius: .5em;
 }
 
 .containerBckgroundRed{
-    background-color: rgb(173, 59, 59);
-    padding-top: 1em;
+    background-color: rgb(173, 59, 59, .5);
     padding-bottom: 1em;
     border-radius: .5em;
 }

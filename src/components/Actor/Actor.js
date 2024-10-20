@@ -6,8 +6,7 @@ import './Actor.css'
 
 const Actor = () => {
     return (
-        <Container>
-            <VideoCarousel className="vidCarousel"/>
+        <Container className='actor'>
             <Container>
                 <h2>Previous Experience</h2>
                 <Container>
@@ -26,6 +25,8 @@ const Actor = () => {
                     <h3>Music Videos</h3>
                     <RoleContainer type={mike.acting.musicVideos} />
                 </Container>
+            <VideoCarousel className="vidCarousel"/>
+
             </Container>
         </Container>
     )

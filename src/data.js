@@ -243,7 +243,7 @@ const mike = {
             audio: {
                 sexyTime: {
                     src: 'https://soundcloud.com/user-554826787/sexytime',
-                    image: 'https://i.imgur.com/ldCpmta.jpeg',
+                    image: 'https://i.imgur.com/VMQqEA7.jpeg',
                     name: 'Sexy Time'
                 },
                 unwind: {
