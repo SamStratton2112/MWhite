@@ -5,7 +5,7 @@ import List from '../List';
 const LocationCard = ({location}) => {
     const [hidden, setHidden] = useState(true);
 
-    let body1 = <img src={location.image}  style={{ width: '19rem', height: '19rem' }} alt={location.city} />;
+    let body1 = <img src={location.image}  style={{ width: '19rem', height: '19rem',borderRadius:'.5em' }} alt={location.city} />;
     
     let list = Array.from(location.locations)
     let body2 = <List list={list} />

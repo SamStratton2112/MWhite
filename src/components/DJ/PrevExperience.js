@@ -4,7 +4,7 @@ import LocationCard from './LocationsCard.js';
 
 const PrevExperience =()=>{
     return(
-        <Container className='center'>
+        <Container className='center containerBckground'>
             <Row md={12}>
                 <Col>
                     <LocationCard location={mike.dj.prevExperience.sanDiego}/>
