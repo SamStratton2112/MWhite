@@ -6,23 +6,23 @@ import './Actor.css'
 
 const Actor = () => {
     return (
-        <Container className='actor'>
+        <Container className='actor cardText'>
             <Container>
-                <h2>Previous Experience</h2>
+                <h2 style={{paddingTop:'2em'}}>Previous Experience</h2>
                 <Container>
-                    <h3>Commercials</h3>
+                    <h3 style={{margin:'1em'}}>Commercials</h3>
                     <RoleContainer type={mike.acting.commercial} />
                 </Container>
                 <Container>
-                    <h3>TV</h3>
+                    <h3 style={{margin:'1em'}}>TV</h3>
                     <RoleContainer type={mike.acting.tv} />
                 </Container>
                 <Container>
-                    <h3>Movies</h3>
+                    <h3 style={{margin:'1em'}}>Movies</h3>
                     <RoleContainer type={mike.acting.movies} />
                 </Container>
                 <Container>
-                    <h3>Music Videos</h3>
+                    <h3 style={{margin:'1em'}}>Music Videos</h3>
                     <RoleContainer type={mike.acting.musicVideos} />
                 </Container>
             <VideoCarousel className="vidCarousel"/>

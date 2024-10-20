@@ -11,5 +11,6 @@
     background-repeat: no-repeat;
     background-position:center;
     background-attachment: fixed;
-    background-size: 50%;
+    background-size: 40%;
+    background-color: rgb(37, 37, 37);
 }

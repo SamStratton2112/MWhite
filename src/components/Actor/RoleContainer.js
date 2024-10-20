@@ -6,7 +6,7 @@ export const RoleContainer = ({type}) =>{
     const cols = []
     for(let obj in type){
         //move this CSS into shared CSS
-        cols.push(<Col><RoleCard
+        cols.push(<Col lg={3} md={12}><RoleCard
             name={type[obj].name}
             role={type[obj].role}
             company={type[obj].company}
@@ -17,7 +17,7 @@ export const RoleContainer = ({type}) =>{
 
     return(
         <Container>
-            <Row>
+            <Row className="center">
                 {cols}
             </Row>
         </Container>
