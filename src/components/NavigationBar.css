@@ -1,5 +1,10 @@
 
 .NavBar{
     background-color: rgb(196, 40, 40);
-    font-size: 1em;
+    font-size: 1.2em;
+}
+
+.padded{
+    padding-left:'1em';
+    padding-right:"1em";
 }

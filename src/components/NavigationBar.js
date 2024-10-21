@@ -11,11 +11,11 @@ import { faInstagram, faSoundcloud, faSquareFacebook, faTwitter } from '@fortawe
 
 const NavigationBar = () =>{
     return(
-        <Navbar collapseOnSelect expand="md" className="NavBar navbar-static-top">
+        <Navbar collapseOnSelect expand="md" className="NavBar navbar-static-top" style={{paddingLeft:"1em", paddingRight:'1em'}}>
           <Navbar.Brand as={Link} to="/" className=' nav-name ms-2'>
             Mike White
           </Navbar.Brand>
-          <Nav className="ms-auto" style={{color:'white'}}>
+          <Nav className="ms-auto">
           <Navbar.Toggle aria-controls="responsive-navbar-nav me-2"/>
           <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav.Link className='NavBar-link social' as={Link} to="https://www.instagram.com/djmikewhite_/"><FontAwesomeIcon icon={faInstagram} size="2x" /></Nav.Link>
