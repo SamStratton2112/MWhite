@@ -4,7 +4,7 @@ import './Model.css'
 
 const LeftImg = ({ image, list, name }) => {
     return (
-        <Row className="center">
+        <Row className="center" >
             <Col className="center imgContainer">
                 <img style={{ height: '30em' }} src={image} alt='Mike White Model' />
             </Col>

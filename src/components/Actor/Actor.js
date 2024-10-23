@@ -8,7 +8,7 @@ const Actor = () => {
     return (
         <Container className='actor cardText'>
             <Container>
-                <h2 style={{textAlign:"left", paddingTop:'1em'}}>Previous Experience</h2>
+                <h2 style={{textAlign:"left", paddingTop:'1em'}}>Previous Acting Experience</h2>
                 <Container>
                     <h3 style={{margin:'1.5em'}}>Commercials</h3>
                     <RoleContainer type={mike.acting.commercial} />
