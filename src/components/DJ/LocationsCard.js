@@ -10,8 +10,8 @@ const LocationCard = ({location}) => {
     let list = Array.from(location.locations)
     let body2 = <List list={list} />
     return (
-        <Col sm={12} md={2} lg={3}>
-                <p style={{backgroundColor: 'rgb(13, 12, 12, .8)',  borderRadius:'.2em', marginTop:'1em'}}>{location.city}</p>
+        <Col>
+                <p style={{backgroundColor: 'rgb(13, 12, 12, .8)',  borderRadius:'.2em', marginTop:'1em', width:'12em'}}>{location.city}</p>
             <Container 
                 style={{ width: '20rem', height: '20rem' }}
                 onMouseEnter={() => setHidden(false)} 
