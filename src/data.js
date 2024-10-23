@@ -33,7 +33,7 @@ const mike = {
             ]
         },
         shows: {
-            image: 'https://i.imgur.com/gWLkqYS.jpeg',
+            image: 'https://i.imgur.com/NPhe42Z.jpeg',
             name: "Fashion Shows:",
             list: [
                 "Scope Magazine's 6th Anniversary Party, @ Club Utopia - May 1998 (Assistant Choreographer, Model Assistant, & Runway Model)",
@@ -44,7 +44,7 @@ const mike = {
             ]
         },
         promo: {
-            image: 'https://i.imgur.com/gWLkqYS.jpeg',
+            image: 'https://i.imgur.com/V51gsQs.jpeg',
             name: "Promotional Materials:",
             list: [
                 "Showroom Modeling for PRADA Spring/Summer/Fall 1999 Ready To Wear - Aug 1999",
@@ -56,7 +56,7 @@ const mike = {
             ]
         },
         host: {
-            image: 'https://i.imgur.com/gWLkqYS.jpeg',
+            image: 'https://i.imgur.com/i4bLatn.jpeg',
             name: "Hosting:",
             list: ["Details Magazine Party (Host & Model) - Feb 1997",
                 "SEMA-AAWI Automotive Convention (Spokesperson) - Nov 1996",
