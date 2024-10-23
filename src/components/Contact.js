@@ -2,7 +2,7 @@ import { Container, Form } from "react-bootstrap";
 import emailjs from '@emailjs/browser';
 import { useNavigate } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faInstagram, faSoundcloud, faSquareFacebook, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram, faSoundcloud, faSquareFacebook } from '@fortawesome/free-brands-svg-icons';
 import './Contact.css'
 
 const Contact = () => {
@@ -71,10 +71,9 @@ const Contact = () => {
                 </button>
             </Form>
             <Container className="center">
-                <a className="socialMedia" href="https://www.instagram.com/djmikewhite_/"><FontAwesomeIcon icon={faInstagram} size="2x"/></a>
                 <a className="socialMedia" href="https://soundcloud.com/user-554826787"><FontAwesomeIcon icon={faSoundcloud} size="2x"/></a>
+                <a className="socialMedia" href="https://www.instagram.com/djmikewhite_/"><FontAwesomeIcon icon={faInstagram} size="2x"/></a>
                 <a className="socialMedia" href="https://www.facebook.com/mike.white.7739814"><FontAwesomeIcon icon={faSquareFacebook} size="2x"/></a>
-                <a className="socialMedia" href="https://x.com/?lang=en"><FontAwesomeIcon icon={faTwitter} size="2x"/></a>
             </Container>
         </Container>
     );
