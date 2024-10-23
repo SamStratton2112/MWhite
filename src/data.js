@@ -66,6 +66,12 @@ const mike = {
         }
     },
     acting: {
+        skills:{
+            skateboard: {
+                name: 'Skateboarding',
+                image: 'https://i.imgur.com/cqOSKPG.jpeg'
+            }
+        },
         links: {
             video: {
                 behiveVoice: 'BTkfCsPAoqo',

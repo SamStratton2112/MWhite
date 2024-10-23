@@ -5,7 +5,7 @@ const RoleCard = ({role,name,company,year,location}) => {
     const [hidden, setHidden] = useState(true);
     const body1 = <h4 style={{ paddingTop:'45%' }}>{name}</h4>;
     const body2 = (
-        <Container style={{textAlign:'left'}}>
+        <Container className="leftText">
         <h4 style={{marginTop:'1em'}}>{name}</h4>
         <p><b>Role : </b>{role}</p>
         <p><b>Company : </b>{company}</p>
@@ -16,8 +16,8 @@ const RoleCard = ({role,name,company,year,location}) => {
     return (
         <Col>
             <Container 
-                style={{ width: '15em', height: '17em', border: 'solid', margin: '1em', borderRadius:'.3em', overflowY: 'auto', textAlign:'center'}} 
-                className="cardBg" 
+                style={{ width: '17em', height: '17em', border: 'solid', margin: '1em', borderRadius:'.3em', overflowY: 'auto', textAlign:'center'}} 
+                className="cardBg leftText" 
                 onMouseEnter={() => setHidden(false)} 
                 onMouseLeave={() => setHidden(true)}
             >

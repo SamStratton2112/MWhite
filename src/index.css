@@ -37,7 +37,7 @@ a{
     background: rgb(184, 17, 17, .5);
     width: 20em;
     height: 20em;
-    color: white;
+    color: rgb(255,255,255,.8);
     border: solid;
     border-width: 1em;
     border-color: black;
