@@ -13,7 +13,7 @@ const NavigationBar = () =>{
     return(
         <Navbar collapseOnSelect expand="md" className="NavBar navbar-static-top" style={{paddingLeft:"1em", paddingRight:'1em'}}>
           <Navbar.Brand as={Link} to="/" className=' nav-name ms-2'>
-            Mike White
+            <img src="https://i.imgur.com/QLkSBI3.jpeg" style={{width: '10em'}}/>
           </Navbar.Brand>
           <Nav className="ms-auto">
           <Navbar.Toggle aria-controls="responsive-navbar-nav me-2"/>
