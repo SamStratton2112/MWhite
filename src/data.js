@@ -16,7 +16,7 @@ const mike = {
     },
     modeling: {
         publications: {
-            image: 'https://i.imgur.com/gWLkqYS.jpeg',
+            image: 'https://i.imgur.com/NPhe42Z.jpeg',
             name: "Publications: ",
             list: [
                 "RNT Architects Magazine (for SDGE) - March 2017",
@@ -33,7 +33,7 @@ const mike = {
             ]
         },
         shows: {
-            image: 'https://i.imgur.com/NPhe42Z.jpeg',
+            image:"https://i.imgur.com/gWLkqYS.jpeg",
             name: "Fashion Shows:",
             list: [
                 "Scope Magazine's 6th Anniversary Party, @ Club Utopia - May 1998 (Assistant Choreographer, Model Assistant, & Runway Model)",
