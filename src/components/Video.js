@@ -1,7 +1,5 @@
 import YouTube from 'react-youtube';
 
-
-// figure out how to use await for this async op
 const Video = ({id})=>{
     const opts ={
         height: '390',

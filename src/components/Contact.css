@@ -6,8 +6,16 @@
     border-radius: .5em;
     color: white;
     font-size: larger;
+    width:45em
 }
 
+.contactImg{
+    width: 20em;
+    border: solid;
+    border-color: rgb(184, 17, 17);
+    border-radius: .2em;
+    border-width: .2em;
+}
 
 
 
