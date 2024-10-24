@@ -8,17 +8,16 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram, faSoundcloud, faSquareFacebook } from '@fortawesome/free-brands-svg-icons';
 
 
-
 const NavigationBar = () => {
   return (
     <Navbar collapseOnSelect expand="md" className="NavBar navbar-static-top" style={{ paddingLeft: "3em", paddingRight: '1em'}} data-bs-theme="dark">
       <Navbar.Brand as={Link} to="/" className=' nav-name ms-2'>
         <img src="https://i.imgur.com/QLkSBI3.jpeg" style={{ width: '10em' }} alt=" DJ Mike White Logo" />
       </Navbar.Brand>
-      <Nav className="ms-auto" style={{color:'white'}}>
+      <Nav className="ms-auto">
         <Navbar.Toggle aria-controls="responsive-navbar-nav me-2"/>
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav.Link className='NavBar-link' as={Link} to="/">About</Nav.Link>
+          <Nav.Link className='NavBar-link'  as={Link} to="/">About</Nav.Link>
           <Nav.Link className='NavBar-link' as={Link} to="/dj">DJ</Nav.Link>
           <Nav.Link className='NavBar-link' as={Link} to="/model">Model</Nav.Link>
           <Nav.Link className='NavBar-link' as={Link} to="/actor">Actor</Nav.Link>

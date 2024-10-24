@@ -13,7 +13,7 @@ const About = () => {
             <Container style={{backgroundColor: 'rgb(250,250,250, .9)', borderRadius: '.2em'}}>
                 <Row>
                     <Col md={12} lg={4} style={{borderRadius: '.2em'}}>
-                        <img style={{ height: '30em', paddingTop:'1em', paddingBottom:'1em' }} src={mike.image} alt='Mike White Model' />
+                        <img style={{ height: '30em', borderRadius:'.5em', marginTop:'.5em' }} src={mike.image} alt='Mike White Model' />
                     </Col>
                     <Col md={12} lg={8}>
                         <Container className="leftText" style={{ fontSize: '1.2em', paddingTop:'1em' }}>

@@ -19,7 +19,7 @@ export const SkillContainer = ({type}) =>{
     //     /></Col>)
     // };
     return(
-        <Container>
+        <Container style={{paddingBottom:'3em'}}>
             <Row className="center">
                 {cols}
             </Row>
