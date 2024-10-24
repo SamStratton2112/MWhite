@@ -1,9 +1,11 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { Link } from 'react-router-dom';
 import mike from '../data';
+import Footer from './Footer'
 
 const About = () => {
     return (
+        <>
         <Container style={{ backgroundColor: 'rgba(13, 12, 12, 0.9)', height: '100%'}} >
             <Container >
                 <Link style={{marginLeft:'10%', marginRight:'10%'}} to="/dj"><button className="bttn">DJ</button></Link>
@@ -29,6 +31,8 @@ const About = () => {
                 <Link style={{marginLeft:'10%', marginRight:'10%'}} to="/contact"><button className="bttn">Contact</button></Link>
             </Container>
         </Container>
+            <Footer/>
+</>
     )
 };
 
