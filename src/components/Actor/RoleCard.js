@@ -5,7 +5,7 @@ const RoleCard = ({role,name,company,year,location}) => {
     const [hidden, setHidden] = useState(true);
     const body1 = <h4 style={{ paddingTop:'45%' }}>{name}</h4>;
     const body2 = (
-        <Container className="leftText">
+        <Container className="leftText" key={company}>
         <h4 style={{marginTop:'1em'}}>{name}</h4>
         <p><b>Role : </b>{role}</p>
         <p><b>Company : </b>{company}</p>

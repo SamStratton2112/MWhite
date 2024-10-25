@@ -3,11 +3,11 @@
     border-radius: .5em;
     color: white;
     font-size: larger;
-    /* width:50vw; */
+    margin-bottom: 2em; 
 }
 
 .contactImg{
-    width:20vw;
+    height:25vw;
     border: solid;
     border-color: rgb(184, 17, 17);
     border-radius: .5em;

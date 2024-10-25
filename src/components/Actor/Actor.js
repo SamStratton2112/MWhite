@@ -4,9 +4,11 @@ import { RoleContainer } from './RoleContainer';
 import VideoCarousel from './VideoCarousel';
 import { SkillContainer } from './SkillContainer';
 import './Actor.css'
+import Footer from '../Footer';
 
 const Actor = () => {
     return (
+        <>
         <Container className='actor cardText'>
             <Container>
                 <h2 style={{textAlign:"left", paddingTop:'1em'}}>Acting Experience</h2>
@@ -33,6 +35,8 @@ const Actor = () => {
             </Container>
             </Container>
         </Container>
+        <Footer/>
+        </>
     )
 };
 
