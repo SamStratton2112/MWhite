@@ -75,7 +75,6 @@ const mike = {
         links: {
             video: {
                 behiveVoice: 'BTkfCsPAoqo',
-                laborDay: 'drABef-QGhg',
                 yacht: 'https://www.dropbox.com/scl/fi/bvz0qd2daotayp8bdoj0v/YACHT-PROMO-IG.mp4?rlkey=h01y47v95kyzpfqjyq6yq75g9&e=1&st=3oycxn67&dl=0'
             },
         },
@@ -265,6 +264,7 @@ const mike = {
             },
             video: {
                 liveARoll: 'BKKLGFTLobs',
+                laborDay: 'drABef-QGhg',
                 SirensCrush: 'vz0OvRqfbro',
                 carnitas: 'MNHSMyaNZ6Y',
                 spiritsFest: '5ZcIKeqHBuo'

@@ -7,6 +7,7 @@ const DjCarousel = () => {
         <Container style={{marginTop: '4em', paddingBottom: '10em'}}>
             <Carousel className='align-items-center'>
                 <Carousel.Item interval={5000}><Video id={mike.dj.links.video.liveARoll} /></Carousel.Item>
+                <Carousel.Item interval={5000}><Video id={mike.dj.links.video.laborDay} /></Carousel.Item>
                 <Carousel.Item interval={5000}><Video id={mike.dj.links.video.SirensCrush} /></Carousel.Item>
                 <Carousel.Item interval={5000}><Video id={mike.dj.links.video.carnitas} /></Carousel.Item>
                 <Carousel.Item interval={5000}><Video id={mike.dj.links.video.spiritsFest} /></Carousel.Item>
