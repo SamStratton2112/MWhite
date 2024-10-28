@@ -17,7 +17,7 @@
 .app{
     background-color: white;
     min-height: 100vh;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
     text-align: center;
     background-size : cover;
     margin-right: auto;
@@ -30,7 +30,6 @@ a{
 
 .leftText{
     text-align: left;
-    font-family:Arial, Helvetica, sans-serif;
 }
 
 .cardBg{
@@ -69,6 +68,13 @@ a{
     padding: .5em;
     font-size: 1.5em;
 }
+
+.aleo-reg {
+    font-family: "Aleo", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
 
 .scrollText{
     overflow-y: auto;

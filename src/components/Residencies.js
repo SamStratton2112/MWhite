@@ -3,6 +3,7 @@ import Row from 'react-bootstrap/Row';
 import mike from '../data.js';
 import VenueCard from './VenueCard';
 
+
 function Residencies() {
   return (
     <Container>
