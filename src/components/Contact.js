@@ -1,4 +1,4 @@
-import { Container, Row, Col, Form } from "react-bootstrap";
+import { Container, Form } from "react-bootstrap";
 import emailjs from '@emailjs/browser';
 import { useNavigate } from 'react-router-dom';
 import './Contact.css';
@@ -37,44 +37,41 @@ const Contact = () => {
 
     return (
         <>
-        <Container className=''>
-            <h1 style={{ marginTop: '1em' }}>Contact</h1>
-            <Row className='center'>
-                <Col md={12} lg={9}>
-                    <Form className='formContainer containerBckground' onSubmit={sendEmail}>
-                        <Form.Group className="mb-3 leftText" controlId="formBasicName">
-                            <Form.Label>Name</Form.Label>
-                            <Form.Control
-                                size="md"
-                                type="Text"
-                                name="user_Name"
-                                placeholder="Name"
-                            />
-                        </Form.Group>
-                        <Form.Group className="mb-3 leftText" controlId="formBasicEmail">
-                            <Form.Label>Your Email address</Form.Label>
-                            <Form.Control
-                                size="md"
-                                type="email"
-                                name="user_email"
-                                placeholder="Enter email"
-                            />
-                        </Form.Group>
-                        <Form.Group className="mb-3 leftText" controlId="formBasicInput">
-                            <Form.Label>Message</Form.Label>
-                            <Form.Control
-                                as="textarea"
-                                name="message"
-                                aria-label="With textarea"
-                            />
-                        </Form.Group>
-                        <button className="bttn" type="submit">
-                            Submit
-                        </button>
-                    </Form></Col>
-            </Row>
-        </Container>
-        <Footer/>
+            <Container>
+                <h1 style={{ marginTop: '1em' }}>Contact</h1>
+                <Form className='formContainer containerBckground' onSubmit={sendEmail}>
+                    <Form.Group className="mb-3 leftText" controlId="formBasicName">
+                        <Form.Label>Name</Form.Label>
+                        <Form.Control
+                            size="md"
+                            type="Text"
+                            name="user_Name"
+                            placeholder="Name"
+                        />
+                    </Form.Group>
+                    <Form.Group className="mb-3 leftText" controlId="formBasicEmail">
+                        <Form.Label>Your Email address</Form.Label>
+                        <Form.Control
+                            size="md"
+                            type="email"
+                            name="user_email"
+                            placeholder="Enter email"
+                        />
+                    </Form.Group>
+                    <Form.Group className="mb-3 leftText" controlId="formBasicInput">
+                        <Form.Label>Message</Form.Label>
+                        <Form.Control
+                            as="textarea"
+                            name="message"
+                            aria-label="With textarea"
+                        />
+                    </Form.Group>
+                    <button className="bttn" type="submit">
+                        Submit
+                    </button>
+                </Form>
+            </Container>
+            <Footer />
         </>
     );
 };

@@ -1,5 +1,4 @@
 .formContainer{
-    height: 25em;
     border-radius: .5em;
     color: white;
     font-size: larger;
@@ -7,7 +6,7 @@
 }
 
 .contactImg{
-    height:25vw;
+    height:31vw;
     border: solid;
     border-color: rgb(184, 17, 17);
     border-radius: .5em;
