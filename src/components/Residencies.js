@@ -2,11 +2,12 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import mike from '../data.js';
 import VenueCard from './VenueCard';
-
+import Footer from './Footer'
 
 function Residencies() {
   return (
-    <Container>
+    <>
+    <Container style={{marginBottom: '3em'}}>
       <h1 style={{marginTop: '1em', marginBottom:'1em'}}>Current Residencies</h1>
       <Row md={12} className="containerBckground">
         <VenueCard venue={mike.dj.residencies.stk} />
@@ -14,6 +15,8 @@ function Residencies() {
         <VenueCard venue={mike.dj.residencies.houseOfBlues} />
       </Row>
     </Container>
+    <Footer/>
+    </>
   );
 }
 
