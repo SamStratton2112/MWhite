@@ -6,7 +6,7 @@ import Footer from './Footer'
 const About = () => {
     return (
         <>
-        <Container style={{ backgroundColor: 'rgba(13, 12, 12, 0.9)', height: '80vh'}} >
+        <Container style={{ backgroundColor: 'rgba(13, 12, 12, 0.9)'}} >
             <Container >
                 <Link style={{marginLeft:'10%', marginRight:'10%'}} to="/dj"><button className="bttn">DJ</button></Link>
                 <Link style={{marginLeft:'10%', marginRight:'10%'}} to="/model"><button className="bttn">Model</button></Link>
@@ -31,7 +31,7 @@ const About = () => {
                 <Link style={{marginLeft:'10%', marginRight:'10%'}} to="/contact"><button className="bttn">Contact</button></Link>
             </Container>
         </Container>
-            <Footer/>
+        <Footer/>
         </>
     )
 };
