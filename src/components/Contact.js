@@ -17,12 +17,11 @@ const Contact = () => {
             alert("Please fill out all fields before submitting.");
             return;
         }
-        //Protect these values in process.env, currently not working...
         emailjs.sendForm(
-            '',//service key in .env
-            '', //template key in .env
+            '',
+            '',
             e.target,
-            '' //public key in .env
+            ''
         ).then(
             () => {
                 console.log('SUCCESS!');
