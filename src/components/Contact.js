@@ -18,10 +18,10 @@ const Contact = () => {
             return;
         }
         emailjs.sendForm(
-            '',
-            '',
+            'service_51mqz1p',//serv key
+            'template_dxiv03f', //temp key
             e.target,
-            ''
+            '_5PB8DAOPC68G129w' //pub key
         ).then(
             () => {
                 console.log('SUCCESS!');

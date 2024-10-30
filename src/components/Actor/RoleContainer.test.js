@@ -2,7 +2,8 @@ import RoleContainer from './RoleContainer';
 import { render } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
 
-const movies = {
+const type = {
+    movies : {
         speedJunkie: {
             name: "Speedway Junkie",
             company: "Speedway Junkie Inc.",
@@ -11,17 +12,17 @@ const movies = {
             year: "1998"
         }
     }
-
+}
 
 describe(RoleContainer, () => {
     it.skip("renders without crashing", () => {
         render(<MemoryRouter>
-            <RoleContainer type={movies}/>
+            <RoleContainer type={type}/>
         </MemoryRouter>);
     });
     it.skip("matches snapshot", () => {
         const { asFragment } = render(<MemoryRouter>
-            <RoleContainer type={movies}/>
+            <RoleContainer type={type}/>
         </MemoryRouter>);
         expect(asFragment()).toMatchSnapshot();
     });
