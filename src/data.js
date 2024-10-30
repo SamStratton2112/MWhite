@@ -76,7 +76,9 @@ const mike = {
             video: {
                 behiveVoice: 'BTkfCsPAoqo',
                 prado: 'Ewtf-Di6xSY',
-                yacht: 'https://www.dropbox.com/scl/fi/bvz0qd2daotayp8bdoj0v/YACHT-PROMO-IG.mp4?rlkey=h01y47v95kyzpfqjyq6yq75g9&e=1&st=3oycxn67&dl=0'
+                yacht: 'CuTRUoXR8As',
+                elsewhere: 'JgNKrt7vN5Y',
+                rumor: 'KP024dgz-QE'
             },
         },
         commercial: {
@@ -124,7 +126,7 @@ const mike = {
             },
             channelEight: {
                 name: "Home Shopping on the Internet",
-                role: "Extra",
+                role: "Delivery Elf",
                 year: "1995",
                 company: "Channel 8",
                 location: "Las Vegas, NV"
@@ -178,7 +180,7 @@ const mike = {
             angelComeDown: {
                 name: "Angel Come Down",
                 company: "Voice of Beehive",
-                role: "Group/Song",
+                role: "Actor",
                 location: "Las Vegas, NV",
                 year: "1995"
             },
@@ -543,7 +545,7 @@ const mike = {
         residencies: {
             stk: {
                 name: "STK San Diego",
-                image: "https://i.imgur.com/MQ3dhX6.jpeg",
+                image: "https://i.imgur.com/AXNvfBK.jpeg",
                 src: "https://stksteakhouse.com/"
             },
             houseOfBlues: {
@@ -553,7 +555,7 @@ const mike = {
             },
             carnitas: {
                 name: 'Carnitas Snack Shack',
-                image: "https://i.imgur.com/FRUJMuP.jpeg",
+                image: "https://i.imgur.com/z9oZM4D.jpeg",
                 src: "https://carnitassnackshack.com/"
             }
         }

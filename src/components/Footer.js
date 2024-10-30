@@ -14,7 +14,7 @@ const Footer = ()=>{
                 <a className="socialMedia" href="https://www.instagram.com/djmikewhite_/"><FontAwesomeIcon icon={faInstagram} size="2x" /></a>
                 <a className="socialMedia" href="https://www.facebook.com/mike.white.7739814"><FontAwesomeIcon icon={faSquareFacebook} size="2x" /></a>
             </Container>
-            <p style={{textAlign:"right"}}><a style={{textDecorationColor:'white', color: 'white', marginBottom:'2em'}} href="https://sam-stratton2112.onrender.com">© 2024 Samantha Stratton</a></p>
+            <p><a style={{textDecorationColor:'white', color: 'white', marginBottom:'2em'}} href="https://sam-stratton2112.onrender.com">© 2024 Samantha Stratton</a></p>
         </Container>
     )
 };
