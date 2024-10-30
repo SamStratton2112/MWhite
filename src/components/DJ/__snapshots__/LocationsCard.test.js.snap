@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LocationCard matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="col"
+  >
+    <p
+      style="border-radius: .2em; margin-top: 1em; width: 12em;"
+    >
+      testCity
+    </p>
+    <div
+      class="container"
+      style="width: 20rem; height: 20rem;"
+    >
+      <img
+        alt="testCity"
+        src="testImage"
+        style="width: 20rem; height: 20rem; border-radius: .5em;"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MusicPlayer matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="center card"
+    style="color: white; margin: 1em; border: solid; border-color: rgb(184, 17, 17);"
+  >
+    <img
+      alt="testName"
+      class="card-img-top"
+      src="testImg"
+      style="width: 15em; height: 16em; padding-top: 1em;"
+    />
+    <div
+      class="card-body"
+    >
+      <div
+        class="card-title h5"
+        style="font-size: 1.7em;"
+      >
+        testName
+      </div>
+      <a
+        href="testSrc"
+      >
+        <button
+          class="bttn"
+        >
+          Listen on Soundcloud
+        </button>
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;

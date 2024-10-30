@@ -1,0 +1,152 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PrevExperience matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="center container"
+  >
+    <div
+      class="row row-cols-lg-3 row-cols-md-12"
+    >
+      <div
+        class="col"
+      >
+        <div
+          class="col"
+        >
+          <p
+            style="border-radius: .2em; margin-top: 1em; width: 12em;"
+          >
+            San Diego, California
+          </p>
+          <div
+            class="container"
+            style="width: 20rem; height: 20rem;"
+          >
+            <img
+              alt="San Diego, California"
+              src="https://i.imgur.com/2O7KGP6.jpeg"
+              style="width: 20rem; height: 20rem; border-radius: .5em;"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="col"
+      >
+        <div
+          class="col"
+        >
+          <p
+            style="border-radius: .2em; margin-top: 1em; width: 12em;"
+          >
+            Las Vegas, Nevada
+          </p>
+          <div
+            class="container"
+            style="width: 20rem; height: 20rem;"
+          >
+            <img
+              alt="Las Vegas, Nevada"
+              src="https://i.imgur.com/WYPhHOV.jpeg"
+              style="width: 20rem; height: 20rem; border-radius: .5em;"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="col"
+      >
+        <div
+          class="col"
+        >
+          <p
+            style="border-radius: .2em; margin-top: 1em; width: 12em;"
+          >
+            Los Angeles, California
+          </p>
+          <div
+            class="container"
+            style="width: 20rem; height: 20rem;"
+          >
+            <img
+              alt="Los Angeles, California"
+              src="https://i.imgur.com/uLfW5z0.png"
+              style="width: 20rem; height: 20rem; border-radius: .5em;"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="col"
+      >
+        <div
+          class="col"
+        >
+          <p
+            style="border-radius: .2em; margin-top: 1em; width: 12em;"
+          >
+            Palm Springs, California
+          </p>
+          <div
+            class="container"
+            style="width: 20rem; height: 20rem;"
+          >
+            <img
+              alt="Palm Springs, California"
+              src="https://i.imgur.com/soZ7oyi.jpeg"
+              style="width: 20rem; height: 20rem; border-radius: .5em;"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="col"
+      >
+        <div
+          class="col"
+        >
+          <p
+            style="border-radius: .2em; margin-top: 1em; width: 12em;"
+          >
+            New York, New York
+          </p>
+          <div
+            class="container"
+            style="width: 20rem; height: 20rem;"
+          >
+            <img
+              alt="New York, New York"
+              src="https://i.imgur.com/3JBkh6t.jpeg"
+              style="width: 20rem; height: 20rem; border-radius: .5em;"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="col"
+      >
+        <div
+          class="col"
+        >
+          <p
+            style="border-radius: .2em; margin-top: 1em; width: 12em;"
+          >
+            Charlotte, North Carolina
+          </p>
+          <div
+            class="container"
+            style="width: 20rem; height: 20rem;"
+          >
+            <img
+              alt="Charlotte, North Carolina"
+              src="https://i.imgur.com/Oqdr1Ty.jpeg"
+              style="width: 20rem; height: 20rem; border-radius: .5em;"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

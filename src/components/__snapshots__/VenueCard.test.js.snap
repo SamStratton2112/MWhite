@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VenueCard matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="col"
+  >
+    <div
+      class="venueCard center container"
+      style="width: 20rem; height: 20rem;"
+    >
+      <img
+        alt="testName"
+        src="testImage"
+        style="width: 19rem; height: 19rem; border-radius: .2em; border: solid; border-width: .2em; border-color: rgb(184, 17, 17);"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

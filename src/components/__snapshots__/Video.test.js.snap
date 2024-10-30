@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Video matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+    style="width: 50%;"
+  >
+    <div
+      class="ratio ratio-16x9"
+    >
+      <iframe
+        allowfullscreen=""
+        src="https://www.youtube.com/embed/test ID?rel=0"
+        title="YouTube video"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

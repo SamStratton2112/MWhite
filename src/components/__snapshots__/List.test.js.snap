@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List matches snapshot 1`] = `
+<DocumentFragment>
+  <ul
+    class="leftText scrollText"
+    style="border-radius: .5em; color: black;"
+  >
+    <li>
+      test item 1
+    </li>
+    <li>
+      test item 2
+    </li>
+  </ul>
+</DocumentFragment>
+`;

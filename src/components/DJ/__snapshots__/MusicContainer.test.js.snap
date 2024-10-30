@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MusicContainer matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="center  container"
+  >
+    <div
+      class="row row-cols-md-12"
+    >
+      <div
+        class="col"
+      >
+        <div
+          class="center card"
+          style="color: white; margin: 1em; border: solid; border-color: rgb(184, 17, 17);"
+        >
+          <img
+            alt="Unwind"
+            class="card-img-top"
+            src="https://i.imgur.com/WAey4uy.jpeg"
+            style="width: 15em; height: 16em; padding-top: 1em;"
+          />
+          <div
+            class="card-body"
+          >
+            <div
+              class="card-title h5"
+              style="font-size: 1.7em;"
+            >
+              Unwind
+            </div>
+            <a
+              href="https://soundcloud.com/user-554826787/unwind"
+            >
+              <button
+                class="bttn"
+              >
+                Listen on Soundcloud
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col"
+      >
+        <div
+          class="center card"
+          style="color: white; margin: 1em; border: solid; border-color: rgb(184, 17, 17);"
+        >
+          <img
+            alt="Sexy Time"
+            class="card-img-top"
+            src="https://i.imgur.com/VMQqEA7.jpeg"
+            style="width: 15em; height: 16em; padding-top: 1em;"
+          />
+          <div
+            class="card-body"
+          >
+            <div
+              class="card-title h5"
+              style="font-size: 1.7em;"
+            >
+              Sexy Time
+            </div>
+            <a
+              href="https://soundcloud.com/user-554826787/sexytime"
+            >
+              <button
+                class="bttn"
+              >
+                Listen on Soundcloud
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col"
+      >
+        <div
+          class="center card"
+          style="color: white; margin: 1em; border: solid; border-color: rgb(184, 17, 17);"
+        >
+          <img
+            alt="An inspired album..."
+            class="card-img-top"
+            src="https://i.imgur.com/fHMsQky.jpeg"
+            style="width: 15em; height: 16em; padding-top: 1em;"
+          />
+          <div
+            class="card-body"
+          >
+            <div
+              class="card-title h5"
+              style="font-size: 1.7em;"
+            >
+              An inspired album...
+            </div>
+            <a
+              href="https://soundcloud.com/user-554826787/an-album-inspired-by-kruder-dorfmeister-mixed-by-dj-mike-white"
+            >
+              <button
+                class="bttn"
+              >
+                Listen on Soundcloud
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
