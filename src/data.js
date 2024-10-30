@@ -16,7 +16,7 @@ const mike = {
     },
     modeling: {
         publications: {
-            image: 'https://i.imgur.com/NPhe42Z.jpeg',
+            image: 'https://i.imgur.com/XBM7fr2.jpeg',
             name: "Publications: ",
             list: [
                 "RNT Architects Magazine (for SDGE) - March 2017",
@@ -56,7 +56,7 @@ const mike = {
             ]
         },
         host: {
-            image: 'https://i.imgur.com/i4bLatn.jpeg',
+            image: 'https://i.imgur.com/P5fi79X.jpeg',
             name: "Hosting:",
             list: ["Details Magazine Party (Host & Model) - Feb 1997",
                 "SEMA-AAWI Automotive Convention (Spokesperson) - Nov 1996",
