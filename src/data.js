@@ -66,12 +66,6 @@ const mike = {
         }
     },
     acting: {
-        skills:{
-            skateboard: {
-                name: 'Skateboarding',
-                image: 'https://i.imgur.com/cqOSKPG.jpeg'
-            }
-        },
         links: {
             video: {
                 behiveVoice: 'BTkfCsPAoqo',
@@ -270,7 +264,9 @@ const mike = {
                 laborDay: 'drABef-QGhg',
                 SirensCrush: 'vz0OvRqfbro',
                 carnitas: 'MNHSMyaNZ6Y',
-                spiritsFest: '5ZcIKeqHBuo'
+                spiritsFest: '5ZcIKeqHBuo',
+                elsewhere: 'JgNKrt7vN5Y',
+                rumor: 'KP024dgz-QE'
             }
         },
         djFor: {

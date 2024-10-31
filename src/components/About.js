@@ -7,6 +7,7 @@ const About = () => {
     return (
         <>
         <Container style={{ backgroundColor: 'rgba(13, 12, 12, 0.9)'}} >
+            {/* turn this into row + col and move from 3-1 LG-MD */}
             <Container >
                 <Link style={{marginLeft:'10%', marginRight:'10%'}} to="/dj"><button className="bttn">DJ</button></Link>
                 <Link style={{marginLeft:'10%', marginRight:'10%'}} to="/model"><button className="bttn">Model</button></Link>

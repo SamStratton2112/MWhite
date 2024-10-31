@@ -2,7 +2,6 @@ import { Container } from 'react-bootstrap';
 import mike from '../../data';
 import { RoleContainer } from './RoleContainer';
 import VideoCarousel from './VideoCarousel';
-import { SkillContainer } from './SkillContainer';
 import './Actor.css'
 import Footer from '../Footer';
 
@@ -29,10 +28,10 @@ const Actor = () => {
                     <RoleContainer type={mike.acting.musicVideos} />
                 </Container>
             <VideoCarousel  className="vidCarousel"/>
-            <Container>
+            {/* <Container>
                     <h3 style={{margin:'1em', textAlign:"left"}}>Special Skills</h3>
                     <SkillContainer type={mike.acting.skills} />
-            </Container>
+            </Container> */}
             </Container>
         </Container>
         <Footer/>

@@ -11,9 +11,11 @@ const LocationCard = ({location}) => {
     let body2 = <List list={list} />
     return (
         <Col>
-                <p style={{backgroundColor: 'rgb(13, 12, 12, .8)',  borderRadius:'.2em', marginTop:'1em', width:'12em'}}>{location.city}</p>
+         {/*center titles  */}
+               <p style={{backgroundColor: 'rgb(13, 12, 12, .8)', textAlign: 'center',  borderRadius:'.2em', marginTop:'1em', width:'12em'}}>{location.city}</p>
+               <br/>
             <Container 
-                style={{ width: '20rem', height: '20rem' }}
+                style={{ width: '20rem', height: '20rem', margin: "auto"}}
                 onMouseEnter={() => setHidden(false)} 
                 onMouseLeave={() => setHidden(true)}
             >
