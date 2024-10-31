@@ -16,7 +16,7 @@ const mike = {
     },
     modeling: {
         publications: {
-            image: 'https://i.imgur.com/XBM7fr2.jpeg',
+            image: 'https://i.imgur.com/P3qthrn.jpeg',
             name: "Publications: ",
             list: [
                 "RNT Architects Magazine (for SDGE) - March 2017",
