@@ -1,4 +1,4 @@
-import { Col, Container} from 'react-bootstrap';
+import { Container} from 'react-bootstrap';
 import {useState} from 'react';
 
 const RoleCard = ({role,name,company,year,location}) => {
@@ -14,7 +14,7 @@ const RoleCard = ({role,name,company,year,location}) => {
         </Container>
     );
     return (
-        <Col>
+
             <Container 
                 style={{ width: '17em', height: '17em', border: 'solid', margin: '1em', borderRadius:'.3em', overflowY: 'auto', textAlign:'center'}} 
                 className="cardBg leftText" 
@@ -23,7 +23,6 @@ const RoleCard = ({role,name,company,year,location}) => {
             >
                 {hidden ? body1 : body2}
             </Container>
-        </Col>
     );
 };
 

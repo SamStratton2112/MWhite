@@ -5,8 +5,8 @@ import RoleCard from "./RoleCard";
 export const RoleContainer = ({type}) =>{
     const cols = []
     for(let obj in type){
-        //move this CSS into shared CSS
-        cols.push(<Col lg={3} md={6} sm={12}><RoleCard
+        //Something is messing with alignment here 
+        cols.push(<Col className="justify-content-center" ><RoleCard
             name={type[obj].name}
             role={type[obj].role}
             company={type[obj].company}
@@ -17,7 +17,7 @@ export const RoleContainer = ({type}) =>{
 
     return(
         <Container>
-            <Row className="center">
+            <Row lg={3} md={12} className="justify-content-center">
                 {cols}
             </Row>
         </Container>

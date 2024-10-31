@@ -21,6 +21,7 @@ const NavigationBar = () => {
           <Nav.Link className='NavBar-link' as={Link} to="/dj">DJ</Nav.Link>
           <Nav.Link className='NavBar-link' as={Link} to="/model">Model</Nav.Link>
           <Nav.Link className='NavBar-link' as={Link} to="/actor">Actor</Nav.Link>
+          {/* <Nav.Link className='NavBar-link' as={Link} to="/skills">Skills</Nav.Link> */}
           <Nav.Link className='NavBar-link' as={Link} to="/Residencies">Residencies</Nav.Link>
           <Nav.Link className='NavBar-link' as={Link} to="/contact">Contact</Nav.Link>
           <Nav.Link className='NavBar-link' as={Link} to="https://soundcloud.com/user-554826787"><FontAwesomeIcon icon={faSoundcloud} size="2x" /></Nav.Link>

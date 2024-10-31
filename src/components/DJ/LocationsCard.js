@@ -18,8 +18,9 @@ const LocationCard = ({location}) => {
                 onMouseEnter={() => setHidden(false)} 
                 onMouseLeave={() => setHidden(true)}
             >
+               <Container className="center">
                <p style={{backgroundColor: 'rgb(13, 12, 12, .8)', borderRadius:'.2em', width:'12em'}}>{location.city}</p>
-
+               </Container>
                 {hidden ? body1 : body2}
             </Container>
         </>

@@ -4,7 +4,7 @@ import mike from '../../data';
 
 const DjCarousel = () => {
     return (
-        <Container style={{paddingBottom: '3em'}}>
+        <Container style={{paddingBottom: '5em'}}>
             <Carousel className='align-items-center'>
                 <Carousel.Item interval={5000}><Video id={mike.dj.links.video.liveARoll} /></Carousel.Item>
                 <Carousel.Item interval={5000}><Video id={mike.dj.links.video.laborDay} /></Carousel.Item>

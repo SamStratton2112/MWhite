@@ -5,6 +5,7 @@ import Dj from './DJ/Dj';
 import Model from './Model/Model';
 import Residencies from './Residencies';
 import Contact from './Contact';
+import Skills from './Skills/Skills';
 
 
 const AllRoutes = () =>{
@@ -16,6 +17,7 @@ const AllRoutes = () =>{
             <Route exact key="model" path="/model" element={<Model/>}/>
             <Route exact key="residencies" path="/residencies" element={<Residencies/>}/>
             <Route exact key="contact" path="/contact" element={<Contact/>}/>
+            <Route exact key="skills" path="/skills" element={<Skills/>}/>
             <Route path='*' element={<Navigate to='/'/>}/>
         </Routes>
     )
