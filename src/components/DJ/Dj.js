@@ -8,20 +8,24 @@ import Footer from '../Footer'
 const Dj = () => {
     return (
         <>
-        <Container className="cardText">
-            <br/>
-            <Container style={{backgroundColor: 'rgb(13, 12, 12, .85)', width:'20em', borderRadius:'.2em'}}><h3 style={{padding:'1em', marginBottom:'1em'}} >Albums</h3></Container>
-            <MusicContainer />
-            <Container style={{backgroundColor: 'rgb(13, 12, 12, .85)', width:'20em', borderRadius:'.2em'}}><h3 style={{padding:'1em'}}>Venues Played</h3></Container>
-            <PrevExperience />
-            <Container style={{backgroundColor: 'rgb(13, 12, 12, .85)', width:'20em', borderRadius:'.2em'}}>
-            <h3 style={{padding:'1em', marginTop: '1em', marginBottom:'1em'}}>Appearances...</h3>
+            <Container className="cardText" >
+                <br />
+                <Container style={{ backgroundColor: 'rgb(13, 12, 12, .85)', width: '10em', borderRadius: '.2em' }}>
+                    <h3 style={{ padding: '.5em' }} >Albums</h3>
+                </Container>
+                <MusicContainer />
+                <Container style={{ backgroundColor: 'rgb(13, 12, 12, .85)', width: '20em', borderRadius: '.2em' }}>
+                    <h3 style={{ padding: '.5em', marginTop: '.5em' }}>Venues Played</h3>
+                </Container>
+                <PrevExperience />
+                <Container style={{ backgroundColor: 'rgb(13, 12, 12, .85)', width: '15em', borderRadius: '.2em' }}>
+                    <h3 style={{ padding: '.5em', marginBottom: '.5em', marginTop: '1.5em' }}>Appearances...</h3>
+                </Container>
+                <AppearencesContainer />
+                <DjCarousel />
             </Container>
-            <AppearencesContainer />
-            <DjCarousel />
-        </Container>
-        <Footer/>
-    </>
+            <Footer />
+        </>
     )
 };
 

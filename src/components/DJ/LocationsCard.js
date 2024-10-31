@@ -1,4 +1,4 @@
-import { Col, Container} from 'react-bootstrap';
+import { Container} from 'react-bootstrap';
 import {useState} from 'react';
 import List from '../List';
 
@@ -10,18 +10,19 @@ const LocationCard = ({location}) => {
     let list = Array.from(location.locations)
     let body2 = <List list={list} />
     return (
-        <Col>
+        <>
          {/*center titles  */}
-               <p style={{backgroundColor: 'rgb(13, 12, 12, .8)', textAlign: 'center',  borderRadius:'.2em', marginTop:'1em', width:'12em'}}>{location.city}</p>
                <br/>
             <Container 
-                style={{ width: '20rem', height: '20rem', margin: "auto"}}
+                style={{ width: '20rem', height: '20rem', marginBottom: "2em"}}
                 onMouseEnter={() => setHidden(false)} 
                 onMouseLeave={() => setHidden(true)}
             >
+               <p style={{backgroundColor: 'rgb(13, 12, 12, .8)', borderRadius:'.2em', width:'12em'}}>{location.city}</p>
+
                 {hidden ? body1 : body2}
             </Container>
-        </Col>
+        </>
     );
 };
 

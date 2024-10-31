@@ -1,10 +1,9 @@
-import { Container, Row, Col } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import mike from '../../data.js';
 import LocationCard from './LocationsCard.js';
 
 const PrevExperience = () => {
     return (
-        <Container className='center'>
             <Row md={12} lg={3}>
                 <Col>
                     <LocationCard location={mike.dj.prevExperience.sanDiego} />
@@ -25,7 +24,6 @@ const PrevExperience = () => {
                     <LocationCard location={mike.dj.prevExperience.Charlotte} />
                 </Col>
             </Row>
-        </Container>
     )
 }
 
