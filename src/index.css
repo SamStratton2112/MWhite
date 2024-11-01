@@ -54,7 +54,7 @@ a{
 
 .containerBckgroundRed{
     background-color: rgb(196, 40, 40);
-    height: 30vh;
+    min-height: 30vh;
 }
 
 
