@@ -15,7 +15,7 @@ const mike = {
         soundcloud: "https://soundcloud.com/user-554826787",
     },
     modeling: {
-        images: ['https://i.imgur.com/UcYJwWD.jpeg','https://i.imgur.com/pP4QXY2.jpeg', 'https://i.imgur.com/i4bLatn.jpeg', 'https://i.imgur.com/NPhe42Z.jpeg', 'https://i.imgur.com/GQaNF6t.jpeg', 'https://i.imgur.com/AqTl3Ci.jpeg', 'https://i.imgur.com/56OFZx4.png', 'https://i.imgur.com/WAey4uy.jpeg'],
+        images: ['https://i.imgur.com/nbmIGqL.jpeg','https://i.imgur.com/UcYJwWD.jpeg', 'https://i.imgur.com/dZ3cdGx.jpeg', 'https://i.imgur.com/pP4QXY2.jpeg', 'https://i.imgur.com/i4bLatn.jpeg', 'https://i.imgur.com/NPhe42Z.jpeg', 'https://i.imgur.com/12qlNBY.jpeg', 'https://i.imgur.com/GQaNF6t.jpeg', "https://i.imgur.com/aRND8iZ.jpeg",'https://i.imgur.com/AqTl3Ci.jpeg', 'https://i.imgur.com/56OFZx4.png', 'https://i.imgur.com/WAey4uy.jpeg', 'https://i.imgur.com/11Y4hMA.jpeg', 'https://i.imgur.com/UihaBsk.jpeg', 'https://i.imgur.com/GXSZ6yZ.jpeg', 'https://i.imgur.com/bmcPt0n.jpeg', 'https://i.imgur.com/iuh1rBE.jpeg', 'https://i.imgur.com/f0YOzm3.jpeg', "https://i.imgur.com/7moWpBJ.jpeg", 'https://i.imgur.com/zVS1Ksn.jpeg', 'https://i.imgur.com/MIbS37C.jpeg'], 
         publications: {
             image: 'https://i.imgur.com/P3qthrn.jpeg',
             name: "Publications: ",
