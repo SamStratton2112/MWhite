@@ -5,7 +5,7 @@ import VideoCarousel from "../VideoCarousel";
 export const SkillContainer = ({ allImages, allVideos, name }) => {
     console.log(allVideos)
     return (
-        <Container style={{ width: '100vw', padding: '1em', marginTop: '1em', marginBottom: '1em' }}>
+        <Container style={{ width: '100vw', padding: '1em', marginTop: '.5em', marginBottom: '1em' }}>
             <h1>{name}</h1>
             <Row>
                 <Col md={12} lg={5}>

@@ -8,7 +8,7 @@ function Residencies() {
   return (
     <>
     <Container style={{marginBottom: '3em'}}>
-      <h1 style={{marginTop: '1em', marginBottom:'1em'}}>Current Residencies</h1>
+      <h1 style={{marginTop: '.5em', marginBottom:'1em'}}>Current Residencies</h1>
       <Row md={12} className="containerBckground">
         <VenueCard venue={mike.dj.residencies.stk} />
         <VenueCard venue={mike.dj.residencies.carnitas} />

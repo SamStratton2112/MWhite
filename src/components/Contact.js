@@ -37,7 +37,7 @@ const Contact = () => {
     return (
         <>
             <Container>
-                <h1 style={{ marginTop: '1em' }}>Contact</h1>
+                <h1 style={{ marginTop: '.5em' }}>Contact</h1>
                 <Form className='formContainer containerBckground' onSubmit={sendEmail}>
                     <Form.Group className="mb-3 leftText" controlId="formBasicName">
                         <Form.Label>Name</Form.Label>
