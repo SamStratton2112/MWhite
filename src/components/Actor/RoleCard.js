@@ -16,8 +16,8 @@ const RoleCard = ({role,name,company,year,location}) => {
     return (
 
             <Container 
-                style={{ width: '17em', height: '17em', border: 'solid', margin: '1em', borderRadius:'.3em', overflowY: 'auto', textAlign:'center'}} 
-                className="cardBg leftText" 
+                style={{ width: '17em', height: '17em', border: 'solid', margin: '1em', borderRadius:'.3em', overflowY: 'auto'}} 
+                className="cardBg" 
                 onMouseEnter={() => setHidden(false)} 
                 onMouseLeave={() => setHidden(true)}
             >

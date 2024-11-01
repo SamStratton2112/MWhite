@@ -81,3 +81,10 @@ a{
     height: 20em;
 }
 
+.carousel{
+    margin-top: 1em;
+    border-radius: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: rgba(13, 12, 12, 0.9);
+}

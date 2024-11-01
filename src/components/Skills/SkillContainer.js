@@ -1,20 +1,21 @@
 import { Container, Row, Col } from "react-bootstrap";
-import SkillCard from "./SkillCard";
+import ImageCarousel from "../ImageCarousel";
+import VideoCarousel from "../VideoCarousel";
 
+export const SkillContainer = ({ allImages, allVideos, name }) => {
+    console.log(allVideos)
+    return (
+        <Container style={{ width: '100vw', padding: '1em', marginTop: '1em', marginBottom: '1em' }}>
+            <h1>{name}</h1>
+            <Row>
+                <Col md={12} lg={5}>
+                    <ImageCarousel allImages={allImages} />
 
-export const SkillContainer = ({type}) =>{
-    const cols = []
-    for(let obj in type){
-        cols.push(<Col lg={3} md={6} sm={12}><SkillCard
-            name={type[obj].name}
-            image={type[obj].image}
-            key={type[obj.name]}
-        /></Col>)
-    };
-    return(
-        <Container style={{paddingBottom:'3em'}}>
-            <Row className="center">
-                {cols}
+                </Col>
+                <Col md={12} lg={7}>
+                    <VideoCarousel allVideos={allVideos} />
+
+                </Col>
             </Row>
         </Container>
     )

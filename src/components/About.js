@@ -6,7 +6,7 @@ import Footer from './Footer'
 const About = () => {
     return (
         <>
-            <Container style={{ backgroundColor: 'rgba(13, 12, 12, 0.9)'}} >
+            <Container style={{ backgroundColor: 'rgba(13, 12, 12, 0.9)' }} >
                 {/* turn this into row + col and move from 3-1 LG-MD */}
                 <Row className="justify-content-center">
                     <Col md={12} lg={3}>
@@ -33,9 +33,20 @@ const About = () => {
                         </Col>
                     </Row>
                 </Container>
-                <Container className="center">
-                    <Link style={{ marginLeft: '10%', marginRight: '10%' }} to="/residencies"><button className="bttn">Current Residencies</button></Link>
-                    <Link style={{ marginLeft: '10%', marginRight: '10%' }} to="/contact"><button className="bttn">Contact</button></Link>
+                <Container>
+                    <Row className="justify-content-center">
+                        <Col md={12} lg={3}>
+                            <Link to="/skills"><button className="bttn">Skills</button></Link>
+                        </Col>
+                        <Col md={12} lg={3}>
+                            <Link to="/residencies"><button className="bttn">Current Residencies</button></Link>
+                        </Col>
+                        <Col md={12} lg={3}>
+                            <Link to="/contact"><button className="bttn">Contact</button></Link>
+                        </Col>
+                    </Row>
+
+
                 </Container>
             </Container>
             <Footer />
