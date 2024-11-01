@@ -20,13 +20,13 @@ const ListModal = ({list, name})=>{
         backdrop="static"
         keyboard={false}
       >
-        <Modal.Header closeButton>
+        <Modal.Header style={{backgroundColor:"rgb(196, 40, 40)", border: 'none'}} closeButton>
           <Modal.Title>{name}</Modal.Title>
         </Modal.Header>
-        <Modal.Body>
+        <Modal.Body style={{backgroundColor:"rgb(196, 40, 40)"}}>
           <List list={list}/>
         </Modal.Body>
-        <Modal.Footer>
+        <Modal.Footer style={{backgroundColor:"rgb(196, 40, 40)"}}>
           <button className='bttn' onClick={handleClose}>
             Close
           </button>
