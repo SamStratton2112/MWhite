@@ -13,6 +13,7 @@ const DjCarousel = () => {
                 <Carousel.Item interval={5000}><Video id={mike.dj.links.video.spiritsFest} /></Carousel.Item>
                 <Carousel.Item interval={5000}><Video id={mike.dj.links.video.elsewhere} /></Carousel.Item>
                 <Carousel.Item interval={5000}><Video id={mike.dj.links.video.rumor} /></Carousel.Item>
+                <Carousel.Item interval={5000}><Video id={mike.dj.links.video.wind} /></Carousel.Item>
             </Carousel>
         </Container>
     );

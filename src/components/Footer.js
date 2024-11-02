@@ -7,7 +7,6 @@ const Footer = ()=>{
     return(
         <Container className="containerBckgroundRed">
             <p style={{fontSize:"larger"}}>_____________________</p>
-             {/* make link to about page */}
             <Link to="/">
             <img src="https://i.imgur.com/QLkSBI3.jpeg" style={{ width: '20em' }} alt=" DJ Mike White Logo" />
             </Link>
