@@ -7,7 +7,6 @@ const About = () => {
     return (
         <>
             <Container style={{ backgroundColor: 'rgba(13, 12, 12, 0.9)' }} >
-                {/* turn this into row + col and move from 3-1 LG-MD */}
                 <Row className="justify-content-center">
                     <Col md={12} lg={3}>
                         <Link to="/dj"><button className="bttn">DJ</button></Link>
@@ -45,8 +44,6 @@ const About = () => {
                             <Link to="/contact"><button className="bttn">Contact</button></Link>
                         </Col>
                     </Row>
-
-
                 </Container>
             </Container>
             <Footer />

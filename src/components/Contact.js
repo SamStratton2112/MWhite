@@ -4,6 +4,8 @@ import { useNavigate } from 'react-router-dom';
 import './Contact.css';
 import Footer from './Footer';
 
+/** Component allows users to contact artist via email using the emailJS api. I'd like to improve this component by sending a copy of the email message to the user as well.  */
+
 const Contact = () => {
     const nav = useNavigate()
 
@@ -25,11 +27,13 @@ const Contact = () => {
         ).then(
             () => {
                 console.log('SUCCESS!');
-                alert("Thank you for reaching out, I'll get back to you shortly");
+                alert("Thank you for reaching out, Mike White will get back to you shortly");
                 nav('/')
             },
             (error) => {
                 console.log('FAILED...', error);
+                alert("An error occured, please try again later or contact Mike White through one of his social media platforms.");
+                nav('/')
             }
         );
     };

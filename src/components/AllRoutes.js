@@ -7,7 +7,6 @@ import Residencies from './Residencies';
 import Contact from './Contact';
 import Skills from './Skills/Skills';
 
-
 const AllRoutes = () =>{
     return(
         <Routes >
