@@ -1,3 +1,5 @@
+/** Displays list content */
+
 const List = ({list})=>{
     let listItems = list.map(item=><li key={item}>{item}</li>);
     return(

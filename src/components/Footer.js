@@ -3,6 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram, faSoundcloud, faSquareFacebook } from '@fortawesome/free-brands-svg-icons';
 import { Link } from 'react-router-dom';
 
+/** used on every page, displays artist's logo and social media links as well as a link to the developer's portfolio. */
+
 const Footer = ()=>{
     return(
         <Container className="containerBckgroundRed">
