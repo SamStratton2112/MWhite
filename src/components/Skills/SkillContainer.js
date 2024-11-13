@@ -2,6 +2,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import ImageCarousel from "../ImageCarousel";
 import VideoCarousel from "../VideoCarousel";
 
+/** Displays skill and skill details. */
+
 export const SkillContainer = ({ allImages, allVideos, name }) => {
     console.log(allVideos)
     return (

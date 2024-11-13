@@ -2,6 +2,8 @@ import { SkillContainer } from "./SkillContainer";
 import mike from '../../data'
 import Footer from '../Footer';
 
+/** Displays all skills with coresponding details. */
+
 const Skills = ()=>{
     const skills = mike.skills;
     const allSkills = [];

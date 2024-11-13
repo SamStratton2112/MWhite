@@ -1,6 +1,8 @@
 import { Row, Col } from "react-bootstrap";
 import List from "../List";
 
+/** Used alongside LeftImg to create a tiling effect alternating image and list.  */
+
 const RightImg =({image, list, name})=>{
     return(
         <Row className="center">
