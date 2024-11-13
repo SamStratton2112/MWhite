@@ -2,7 +2,10 @@ import List from './List';
 import { useState } from 'react';
 import Modal from 'react-bootstrap/Modal';
 
+/** Component used to display list data, innitially showing the list name as a button and upon clicking will open into a full display of the list content. */
+
 const ListModal = ({list, name})=>{
+  //State used to determine if the modal should enter it's full display
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);

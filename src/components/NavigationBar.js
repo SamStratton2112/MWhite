@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram, faSoundcloud, faSquareFacebook } from '@fortawesome/free-brands-svg-icons';
 
+//Navigation bar with tabs to each page and links to artists social medias.
 
 const NavigationBar = () => {
   return (
