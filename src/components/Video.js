@@ -1,3 +1,5 @@
+/** Component contains video, will be rotated every 5 seconds in video carousel.*/
+
 const Video = ({ id }) => {
 
     return (
