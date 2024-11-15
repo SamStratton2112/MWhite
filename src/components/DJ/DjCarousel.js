@@ -2,6 +2,8 @@ import { Carousel, Container } from 'react-bootstrap';
 import Video from '../Video';
 import mike from '../../data';
 
+//Unnecessary component. Can be replaced by VideoCarousel Component with mike.sj.links.video being passed down as allVideos prop 
+
 const DjCarousel = () => {
     const videos = [];
     for(let vid in mike.dj.links.video){
