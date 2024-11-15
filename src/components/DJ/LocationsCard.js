@@ -4,14 +4,15 @@ import List from '../List';
 
 const LocationCard = ({location}) => {
     const [hidden, setHidden] = useState(true);
-
-    let body1 = <img src={location.image}  style={{ width: '20rem', height: '20rem',borderRadius:'.5em' }} alt={location.city} />;
-    
     let list = Array.from(location.locations)
+
+    // display when not hovering 
+    let body1 = <img src={location.image}  style={{ width: '20rem', height: '20rem',borderRadius:'.5em' }} alt={location.city} />;
+
+    //display when hovering 
     let body2 = <List list={list} />
     return (
         <>
-         {/*center titles  */}
                <br/>
             <Container 
                 style={{ width: '20rem', height: '20rem', marginBottom: "2em"}}
