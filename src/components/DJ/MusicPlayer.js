@@ -1,5 +1,7 @@
 import { Card } from "react-bootstrap";
 
+//Name can be improved, connects user to soundcloud album pages for artist. 
+
 
 const MusicPlayer = ({album}) => {
     return (
